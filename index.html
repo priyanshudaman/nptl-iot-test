@@ -107,8 +107,8 @@
 
 <div class="container">
     <div id="start-screen" class="card">
-        <h1>Comprehensive 70-Mark Mock Test</h1>
-        <p>This test will randomly pull exactly 70 questions from your loaded JSON files. You can navigate freely. There is no time limit.</p>
+        <h1>Comprehensive 75-Mark Mock Test</h1>
+        <p>This test will randomly pull exactly 75 questions from your loaded JSON files. You can navigate freely. There is no time limit.</p>
         <button onclick="startTest()">Start Test</button>
     </div>
 
@@ -170,14 +170,14 @@
         document.getElementById('start-screen').innerHTML = "<p>Loading questions...</p>";
         await loadData();
 
-        if (allQuestions.length < 70) {
-            alert(`Not enough questions! Found ${allQuestions.length}, but need 70.`);
+        if (allQuestions.length < 75) {
+            alert(`Not enough questions! Found ${allQuestions.length}, but need 75.`);
             location.reload();
             return;
         }
 
-        // Shuffle and pick exactly 70
-        testQuestions = allQuestions.sort(() => 0.5 - Math.random()).slice(0, 70);
+        // Shuffle and pick exactly 75
+        testQuestions = allQuestions.sort(() => 0.5 - Math.random()).slice(0, 75);
         
         document.getElementById('start-screen').style.display = 'none';
         document.getElementById('test-screen').style.display = 'grid';
@@ -203,7 +203,7 @@
         currentIndex = index;
         const q = testQuestions[index];
         
-        document.getElementById('question-number').innerText = `Question ${index + 1} of 70`;
+        document.getElementById('question-number').innerText = `Question ${index + 1} of 75`;
         document.getElementById('question-text').innerText = q.questionText;
         
         const optionsDiv = document.getElementById('options');
@@ -282,7 +282,7 @@
             // Add a warning if the JSON is missing the correctAnswer key
             let html = `<h3>${index + 1}. ${q.questionText}</h3>`;
             if (!q.correctAnswer) {
-                html += `<p style="color: #d97706; font-size: 0.85em;">⚠️ This question is missing the 'correctAnswer' key in its JSON file, so it couldn't be graded.</p>`;
+                html += `<p style="color: #d97756; font-size: 0.85em;">⚠️ This question is missing the 'correctAnswer' key in its JSON file, so it couldn't be graded.</p>`;
             }
             
             q.options.forEach(opt => {
@@ -308,7 +308,7 @@
             container.appendChild(item);
         });
 
-        document.getElementById('score-display').innerText = `You scored ${score} out of 70`;
+        document.getElementById('score-display').innerText = `You scored ${score} out of 75`;
     }
 </script>
 
