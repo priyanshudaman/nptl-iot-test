@@ -6,168 +6,168 @@
       "questions": [
         {
           "questionNumber": 1,
-          "questionText": "What is the output of the following Python code snippet? \n $x=$ \"This is Python\" \n print(x[2:4]) [cite: 3542]",
+          "questionText": "What is the output of the following Python code snippet? \n $x=$ \"This is Python\" \n print(x[2:4]) ",
           "options": [
-            "a. is [cite: 3543]",
-            "b. hi [cite: 3544]",
-            "c. is (is with a space) [cite: 3545]",
-            "d. Th [cite: 3545]"
+            "a. is ",
+            "b. hi ",
+            "c. is (is with a space) ",
+            "d. Th "
           ],
-          "explanation": "In Python string slicing, the syntax [start:stop] includes the character at the start index and goes up to, but does not include, the character at the stop index. [cite: 3546] \n • $x[0]=^{\\prime}T^{\\prime}$ \n • $x[1]=^{\\prime}h^{\\prime}$ \n • $x[2]=`i^{\\prime}$ \n • $x[3]=^{\\prime}s^{\\prime}$ \n $x[4]=^{\\cdot}$ (space) [cite: 3547, 3548, 3549, 3550]"
+          "explanation": "In Python string slicing, the syntax [start:stop] includes the character at the start index and goes up to, but does not include, the character at the stop index.  \n • $x[0]=^{\\prime}T^{\\prime}$ \n • $x[1]=^{\\prime}h^{\\prime}$ \n • $x[2]=`i^{\\prime}$ \n • $x[3]=^{\\prime}s^{\\prime}$ \n $x[4]=^{\\cdot}$ (space) [, 3548, 3549, 3550]"
         },
         {
           "questionNumber": 2,
-          "questionText": "What is the purpose of the try...except block in Python? [cite: 3553]",
+          "questionText": "What is the purpose of the try...except block in Python? ",
           "options": [
-            "a. To define a function. [cite: 3554]",
-            "b. To create a loop. [cite: 3555]",
-            "c. To handle exceptions and errors during code execution without crashing the program. [cite: 3556]",
-            "d. To import libraries. [cite: 3557]"
+            "a. To define a function. ",
+            "b. To create a loop. ",
+            "c. To handle exceptions and errors during code execution without crashing the program. ",
+            "d. To import libraries. "
           ],
-          "explanation": "The try block lets you test a block of code for errors, while the except block lets you handle the error. [cite: 3558] This prevents the entire program from stopping (crashing) if something goes wrong, like dividing by zero or missing a file. [cite: 3559]"
+          "explanation": "The try block lets you test a block of code for errors, while the except block lets you handle the error.  This prevents the entire program from stopping (crashing) if something goes wrong, like dividing by zero or missing a file. "
         },
         {
           "questionNumber": 3,
-          "questionText": "Which of the following is a specific requirement in Python for defining code blocks (such as inside if-else statements or loops) that distinguishes it from many other programming languages? [cite: 3562]",
+          "questionText": "Which of the following is a specific requirement in Python for defining code blocks (such as inside if-else statements or loops) that distinguishes it from many other programming languages? ",
           "options": [
-            "a. It requires the use of curly braces {} to enclose the code block. [cite: 3563]",
-            "b. It requires a begin and end keyword to mark the start and finish of the block. [cite: 3564]",
-            "c. It follows a very rigid indentation policy to indicate different blocks of code. [cite: 3565]",
-            "d. It requires every line of the block to end with a semicolon;. [cite: 3566]"
+            "a. It requires the use of curly braces {} to enclose the code block. ",
+            "b. It requires a begin and end keyword to mark the start and finish of the block. ",
+            "c. It follows a very rigid indentation policy to indicate different blocks of code. ",
+            "d. It requires every line of the block to end with a semicolon;. "
           ],
-          "explanation": "Unlike languages like C++ or Java that use curly braces {} to group code, Python uses indentation (whitespace at the beginning of a line). [cite: 3567] This is a core part of the language syntax; if the indentation is incorrect, the code will fail to run or result in an IndentationError. [cite: 3568]"
+          "explanation": "Unlike languages like C++ or Java that use curly braces {} to group code, Python uses indentation (whitespace at the beginning of a line).  This is a core part of the language syntax; if the indentation is incorrect, the code will fail to run or result in an IndentationError. "
         },
         {
           "questionNumber": 4,
-          "questionText": "When setting up a UDP client-server network in Python, why is it critical that both the client and server use the same port number? [cite: 3570]",
+          "questionText": "When setting up a UDP client-server network in Python, why is it critical that both the client and server use the same port number? ",
           "options": [
-            "a. To save power. [cite: 3571]",
-            "b. To ensure the data is encrypted. [cite: 3572]",
-            "c. To ensure the client sends data to the exact endpoint where the server is listening. [cite: 3573]",
-            "d. It is not critical; they can use different ports [cite: 3574]"
+            "a. To save power. ",
+            "b. To ensure the data is encrypted. ",
+            "c. To ensure the client sends data to the exact endpoint where the server is listening. ",
+            "d. It is not critical; they can use different ports "
           ],
-          "explanation": "In networking, a port number acts like a specific room number in a large building. [cite: 3575] The server \"listens\" at a specific port; if the client sends data to a different port, the server will never receive the message because it isn't looking there. [cite: 3576]"
+          "explanation": "In networking, a port number acts like a specific room number in a large building.  The server \"listens\" at a specific port; if the client sends data to a different port, the server will never receive the message because it isn't looking there. "
         },
         {
           "questionNumber": 5,
-          "questionText": "When using the Python open() function, what happens if you open a file in 'w' (write) mode that does not already exist? [cite: 3577]",
+          "questionText": "When using the Python open() function, what happens if you open a file in 'w' (write) mode that does not already exist? ",
           "options": [
-            "a. It throws a FileNotFoundError [cite: 3578]",
-            "b. It automatically creates the file [cite: 3579]",
-            "c. It opens the file in read-only mode [cite: 3580]",
-            "d. It asks for user permission [cite: 3581]"
+            "a. It throws a FileNotFoundError ",
+            "b. It automatically creates the file ",
+            "c. It opens the file in read-only mode ",
+            "d. It asks for user permission "
           ],
-          "explanation": "In Python, the 'w' (write) mode is designed to either overwrite an existing file or create a new one if it isn't found. If the file exists, its contents are deleted (truncated) first; [cite: 3582, 3585] if it doesn't exist, Python simply creates a blank file with that name. [cite: 3586]"
+          "explanation": "In Python, the 'w' (write) mode is designed to either overwrite an existing file or create a new one if it isn't found. If the file exists, its contents are deleted (truncated) first; [, 3585] if it doesn't exist, Python simply creates a blank file with that name. "
         },
         {
           "questionNumber": 6,
-          "questionText": "Which of the following file modes is specifically mentioned to open a file for both reading and writing operations in Python? [cite: 3587]",
+          "questionText": "Which of the following file modes is specifically mentioned to open a file for both reading and writing operations in Python? ",
           "options": [
-            "a. rw [cite: 3588]",
-            "b. w [cite: 3589]",
-            "c. r+ [cite: 3590]",
-            "d. A [cite: 3591]"
+            "a. rw ",
+            "b. w ",
+            "c. r+ ",
+            "d. A "
           ],
-          "explanation": "The r+ mode is used for both reading and writing. [cite: 3592] When you open a file with r+, the file pointer is placed at the beginning of the file, allowing you to read existing data and also write/update data at specific positions. [cite: 3593]"
+          "explanation": "The r+ mode is used for both reading and writing.  When you open a file with r+, the file pointer is placed at the beginning of the file, allowing you to read existing data and also write/update data at specific positions. "
         },
         {
           "questionNumber": 7,
-          "questionText": "Which command is used to expand the file system on a Raspberry Pi to cover the entire memory card after a fresh installation? [cite: 3594]",
+          "questionText": "Which command is used to expand the file system on a Raspberry Pi to cover the entire memory card after a fresh installation? ",
           "options": [
-            "a. sudo apt-get update [cite: 3595]",
-            "b. sudo reboot [cite: 3596]",
-            "c. sudo raspi-config [cite: 3597]",
-            "d. Ifconfig [cite: 3598]"
+            "a. sudo apt-get update ",
+            "b. sudo reboot ",
+            "c. sudo raspi-config ",
+            "d. Ifconfig "
           ],
-          "explanation": "The raspi-config is the Raspberry Pi's configuration tool. Inside its menu, there is an option under \"Advanced Options\" called \"Expand Filesystem\" which ensures that the OS uses all the available space on the microSD card rather than just the default small partition size. [cite: 3600]"
+          "explanation": "The raspi-config is the Raspberry Pi's configuration tool. Inside its menu, there is an option under \"Advanced Options\" called \"Expand Filesystem\" which ensures that the OS uses all the available space on the microSD card rather than just the default small partition size. "
         },
         {
           "questionNumber": 8,
-          "questionText": "What advantage does the Raspberry Pi 3 have over the Raspberry Pi Zero in terms of connectivity? [cite: 3601]",
+          "questionText": "What advantage does the Raspberry Pi 3 have over the Raspberry Pi Zero in terms of connectivity? ",
           "options": [
-            "a. Pi 3 has built-in Wi-Fi and Bluetooth, whereas Pi Zero does not have them (standard version). [cite: 3602, 3603]",
-            "b. Pi 3 is smaller. [cite: 3604]",
-            "c. Pi Zero is more expensive. [cite: 3606]",
-            "d. Pi 3 has fewer USB ports. [cite: 3607]"
+            "a. Pi 3 has built-in Wi-Fi and Bluetooth, whereas Pi Zero does not have them (standard version). [, 3603]",
+            "b. Pi 3 is smaller. ",
+            "c. Pi Zero is more expensive. ",
+            "d. Pi 3 has fewer USB ports. "
           ],
-          "explanation": "The Raspberry Pi 3 was the first flagship model to include integrated 802.11n Wi-Fi and Bluetooth 4.1. [cite: 3609] The standard Raspberry Pi Zero requires external USB dongles for any wireless connectivity. [cite: 3610] (Note: The later \"Zero W\" model added these features, but the base Zero lacks them). [cite: 3611]"
+          "explanation": "The Raspberry Pi 3 was the first flagship model to include integrated 802.11n Wi-Fi and Bluetooth 4.1.  The standard Raspberry Pi Zero requires external USB dongles for any wireless connectivity.  (Note: The later \"Zero W\" model added these features, but the base Zero lacks them). "
         },
         {
           "questionNumber": 9,
-          "questionText": "Which specific software is recommended for Windows-based systems to write the Raspberry Pi operating system image onto the memory card? [cite: 3612]",
+          "questionText": "Which specific software is recommended for Windows-based systems to write the Raspberry Pi operating system image onto the memory card? ",
           "options": [
-            "a. Rufus [cite: 3613]",
-            "b. Balena Etcher [cite: 3614]",
-            "c. Win32 Disk Imager [cite: 3615]",
-            "d. UNetbootin [cite: 3616]"
+            "a. Rufus ",
+            "b. Balena Etcher ",
+            "c. Win32 Disk Imager ",
+            "d. UNetbootin "
           ],
-          "explanation": "While tools like Balena Etcher and Rufus are very popular today, Win32 Disk Imager is the classic, specifically recommended tool often cited in Raspberry Pi documentation and academic courses for Windows users to write. [cite: 3617] img files to SD cards or USB drives. [cite: 3618]"
+          "explanation": "While tools like Balena Etcher and Rufus are very popular today, Win32 Disk Imager is the classic, specifically recommended tool often cited in Raspberry Pi documentation and academic courses for Windows users to write.  img files to SD cards or USB drives. "
         },
         {
           "questionNumber": 10,
-          "questionText": "When connecting the Raspberry Pi camera module to the Raspberry Pi using the ribbon cable, which direction should the blue tag on the cable face? [cite: 3619]",
+          "questionText": "When connecting the Raspberry Pi camera module to the Raspberry Pi using the ribbon cable, which direction should the blue tag on the cable face? ",
           "options": [
-            "a. Towards the HDMI port [cite: 3620]",
-            "b. Towards the USB ports [cite: 3621]",
-            "c. Towards the Ethernet port [cite: 3622]",
-            "d. Towards the GPIO pins [cite: 3623]"
+            "a. Towards the HDMI port ",
+            "b. Towards the USB ports ",
+            "c. Towards the Ethernet port ",
+            "d. Towards the GPIO pins "
           ],
-          "explanation": "When connecting the Raspberry Pi camera module, the ribbon cable must be inserted correctly for proper functioning. [cite: 3624] The blue tag on the cable should face the Ethernet port side of the Raspberry Pi board. [cite: 3625] This ensures correct alignment of the connectors. [cite: 3626]"
+          "explanation": "When connecting the Raspberry Pi camera module, the ribbon cable must be inserted correctly for proper functioning.  The blue tag on the cable should face the Ethernet port side of the Raspberry Pi board.  This ensures correct alignment of the connectors. "
         },
         {
           "questionNumber": 11,
-          "questionText": "Which command does the lecture recommend using in the terminal to capture an image directly with the Raspberry Pi camera without writing a full Python script? [cite: 3627, 3628]",
+          "questionText": "Which command does the lecture recommend using in the terminal to capture an image directly with the Raspberry Pi camera without writing a full Python script? [, 3628]",
           "options": [
-            "a. sudo apt-get install python-picamera [cite: 3630]",
-            "b. raspistill -o image_name.jpg [cite: 3631]",
-            "c. python camera_capture.py [cite: 3632]",
-            "d. picamera.capture('image.jpg') [cite: 3633]"
+            "a. sudo apt-get install python-picamera ",
+            "b. raspistill -o image_name.jpg ",
+            "c. python camera_capture.py ",
+            "d. picamera.capture('image.jpg') "
           ],
-          "explanation": "The raspistill command is the dedicated command-line utility for the Raspberry Pi camera module. The -o flag stands for \"output,\" followed by the filename you want to save. [cite: 3634, 3635] It is the fastest way to test if your camera is working correctly without needing to write any code. [cite: 3636]"
+          "explanation": "The raspistill command is the dedicated command-line utility for the Raspberry Pi camera module. The -o flag stands for \"output,\" followed by the filename you want to save. [, 3635] It is the fastest way to test if your camera is working correctly without needing to write any code. "
         },
         {
           "questionNumber": 12,
-          "questionText": "In the Python code shown for the blinking LED project, what is the purpose of the line GPIO.setmode(GPIO.BOARD)? [cite: 3637]",
+          "questionText": "In the Python code shown for the blinking LED project, what is the purpose of the line GPIO.setmode(GPIO.BOARD)? ",
           "options": [
-            "a. To set the GPIO pins to output mode [cite: 3638]",
-            "b. To initialize the library for time functions [cite: 3639]",
-            "c. To specify that the pin numbering will follow the physical board layout [cite: 3640]",
-            "d. To clear the settings of the GPIO pins [cite: 3641]"
+            "a. To set the GPIO pins to output mode ",
+            "b. To initialize the library for time functions ",
+            "c. To specify that the pin numbering will follow the physical board layout ",
+            "d. To clear the settings of the GPIO pins "
           ],
-          "explanation": "The GPIO.setmode() function determines how you refer to the pins on the Raspberry Pi. Using GPIO. [cite: 3642] BOARD means you are counting the physical pins exactly as they are numbered on the board (1 through 40). [cite: 3643] The alternative is GPIO. BCM, which refers to the Broadcom SOC channel numbers. [cite: 3644]"
+          "explanation": "The GPIO.setmode() function determines how you refer to the pins on the Raspberry Pi. Using GPIO.  BOARD means you are counting the physical pins exactly as they are numbered on the board (1 through 40).  The alternative is GPIO. BCM, which refers to the Broadcom SOC channel numbers. "
         },
         {
           "questionNumber": 13,
-          "questionText": "Which of the following commands is used to install the Adafruit DHT library in Raspberry Pi after navigating to the folder? [cite: 3645]",
+          "questionText": "Which of the following commands is used to install the Adafruit DHT library in Raspberry Pi after navigating to the folder? ",
           "options": [
-            "a. sudo apt-get install python [cite: 3646]",
-            "b. sudo python setup.py install [cite: 3647]",
-            "c. install dht_library [cite: 3648]",
-            "d. pip install dht [cite: 3649]"
+            "a. sudo apt-get install python ",
+            "b. sudo python setup.py install ",
+            "c. install dht_library ",
+            "d. pip install dht "
           ],
-          "explanation": "When installing older or manually downloaded libraries (like the original Adafruit DHT library from GitHub), you navigate into the directory and run the setup.py script. [cite: 3650, 3652] Using sudo ensures the library is installed with administrative privileges so it can be accessed globally by your Python environment. [cite: 3653]"
+          "explanation": "When installing older or manually downloaded libraries (like the original Adafruit DHT library from GitHub), you navigate into the directory and run the setup.py script. [, 3652] Using sudo ensures the library is installed with administrative privileges so it can be accessed globally by your Python environment. "
         },
         {
           "questionNumber": 14,
-          "questionText": "Which pin numbering configuration does the Adafruit DHT library automatically use for the sensor, requiring the user to specify the pin number accordingly? [cite: 3654]",
+          "questionText": "Which pin numbering configuration does the Adafruit DHT library automatically use for the sensor, requiring the user to specify the pin number accordingly? ",
           "options": [
-            "a. GPIO.BOARD [cite: 3655]",
-            "b. WiringPi [cite: 3656]",
-            "c. BCM (Broadcom SOC Channel) [cite: 3657]",
-            "d. Physical Pin Numbering [cite: 3658]"
+            "a. GPIO.BOARD ",
+            "b. WiringPi ",
+            "c. BCM (Broadcom SOC Channel) ",
+            "d. Physical Pin Numbering "
           ],
-          "explanation": "The Adafruit DHT library (and most modern Python libraries for Raspberry Pi) defaults to BCM numbering. [cite: 3659] This means that when you write your code, you must use the Broadcom GPIO number (e.g., GPIO 4) rather than the physical location of the pin on the header (e.g., Pin 7). [cite: 3660]"
+          "explanation": "The Adafruit DHT library (and most modern Python libraries for Raspberry Pi) defaults to BCM numbering.  This means that when you write your code, you must use the Broadcom GPIO number (e.g., GPIO 4) rather than the physical location of the pin on the header (e.g., Pin 7). "
         },
         {
           "questionNumber": 15,
-          "questionText": "In a DHT Sensor, ground is connected to which pin number? [cite: 3661]",
+          "questionText": "In a DHT Sensor, ground is connected to which pin number? ",
           "options": [
-            "a. 1 [cite: 3662]",
-            "b. 2 [cite: 3663]",
-            "c. 3 [cite: 3664]",
-            "d. 4 [cite: 3665]"
+            "a. 1 ",
+            "b. 2 ",
+            "c. 3 ",
+            "d. 4 "
           ],
-          "explanation": "On a standard 4-pin DHT sensor (like the DHT11 or DHT22), the pins are numbered from left to right when looking at the front of the sensor (the side with the holes). [cite: 3667]"
+          "explanation": "On a standard 4-pin DHT sensor (like the DHT11 or DHT22), the pins are numbered from left to right when looking at the front of the sensor (the side with the holes). "
         }
       ]
     }
