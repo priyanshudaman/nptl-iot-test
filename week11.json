@@ -1,0 +1,167 @@
+{
+  "document": "Introduction To Internet Of Things JAN 2026",
+  "assignments": [
+    {
+      "title": "Week 11 Assignment",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionText": "Which of the following is also used as a name for Smart Grids?",
+          "options": [
+            "a. Energy internet",
+            "b. Electricity with a hand",
+            "c. Electrolyte",
+            "d. All of these"
+          ],
+          "explanation": "A Smart Grid is often called the Energy Internet because it applies Internet-like principles-bidirectional communication, networking, and distributed control-to the electricity grid. Just as the internet allows for a decentralized flow of information, the Energy Internet allows for a two-way flow of both electricity and data between utilities and consumers."
+        },
+        {
+          "questionNumber": 2,
+          "questionText": "Smart Grid enables which type of energy flow?",
+          "options": [
+            "a. Bidirectional",
+            "b. Unidirectional",
+            "c. Both a and b",
+            "d. Neither a nor b"
+          ],
+          "explanation": "Unlike traditional power grids that only deliver electricity from a central plant to the consumer (unidirectional), a Smart Grid supports bidirectional flow. This means energy can flow from the utility to the home, but also from the consumer back to the grid-for example, when a house with solar panels generates more power than it needs and sells the excess back to the utility company."
+        },
+        {
+          "questionNumber": 3,
+          "questionText": "Fill in the blank.\nIn......... a home can draw power from distributed resources.",
+          "options": [
+            "a. Peaking",
+            "b. Islanding",
+            "c. Neither a nor b",
+            "d. Both a and b"
+          ],
+          "explanation": "Islanding is a condition where a location (like a home or a microgrid) remains powered by distributed energy resources (such as solar panels, wind turbines, or batteries) even when the main utility power grid is disconnected or fails. This allows the home to function as an independent \"island\" of power, ensuring reliability during blackouts."
+        },
+        {
+          "questionNumber": 4,
+          "questionText": "Fill in the blank.\n......... samples voltage and current with a fixed sample rate at the installed location.",
+          "options": [
+            "a. PEVS",
+            "b. DAUs",
+            "c. PMUS",
+            "d. None of these"
+          ],
+          "explanation": "PMUs (Phasor Measurement Units) are high-speed sensors used in Smart Grids to sample voltage and current waves at a fixed, very high rate (often 30 to 60 times per second). These measurements are time-synchronized via GPS, allowing grid operators to monitor the \"health\" of the entire power system in real-time and prevent wide-scale blackouts."
+        },
+        {
+          "questionNumber": 5,
+          "questionText": "Fill in the blank.\n......... is carried out by compromising the availability of a grid component.",
+          "options": [
+            "a. Gateway",
+            "b. Data injection attacks",
+            "c. AMH",
+            "d. Denial of service"
+          ],
+          "explanation": "A Denial of Service (DoS) attack in a Smart Grid context aims to disrupt or delay the communication and availability of critical grid components. By flooding the network with traffic or crashing specific nodes, the attacker prevents legitimate data from reaching its destination, which can lead to the loss of real-time monitoring and potentially cause physical damage to the grid."
+        },
+        {
+          "questionNumber": 6,
+          "questionText": "Which of the following are types of Dynamic System Attacks?",
+          "options": [
+            "a. Replay attacks",
+            "b. Dynamic data injection attacks (D-DIA)",
+            "c. Covert attacks",
+            "d. All of these"
+          ],
+          "explanation": "Dynamic System Attacks target the control loops and state estimators of a system (like a Smart Grid) over time."
+        },
+        {
+          "questionNumber": 7,
+          "questionText": "State True or False.\nIndustrial Internet of Things (IIoT) follows the \"rip & replace\" approach.",
+          "options": [
+            "a. True",
+            "b. False"
+          ],
+          "explanation": "The Industrial Internet of Things (IIoT) typically follows an \"integrate and extend\" approach rather than \"rip and replace.\" Since industrial environments involve massive, expensive, and long-lasting machinery (legacy systems), it is not cost-effective to replace them entirely. Instead, IIoT focuses on adding sensors, gateways, and connectivity to existing equipment to collect data and improve efficiency."
+        },
+        {
+          "questionNumber": 8,
+          "questionText": "State True or False.\nMechanized production is a part of the 4th Industrial Revolution.",
+          "options": [
+            "a. True",
+            "b. False"
+          ],
+          "explanation": "Mechanized production (powered by water and steam) was the hallmark of the 1st Industrial Revolution. The 4th Industrial Revolution (Industry 4.0) is characterized by Cyber-Physical Systems, the Internet of Things (IoT), and artificial intelligence, focusing on interconnectivity and smart automation."
+        },
+        {
+          "questionNumber": 9,
+          "questionText": "Match the Industrial Revolution with the corresponding milestone:\n1) 1st 2) 2nd 3) 3rd 4) 4th",
+          "options": [
+            "a. 1-Mechanized production, 2-Mass production, 3-Internet evolution & automation, 4-Industrial Internet of Things",
+            "b. 1-Mass production, 2-Mechanized production, 3-IIoT, 4-Internet evolution & automation",
+            "c. 1-Internet evolution & automation, 2-Mass production, 3-Mechanized production, 4-lloT",
+            "d. 1-lloT, 2-Internet evolution & automation, 3-Mass production, 4-Mechanized production"
+          ],
+          "explanation": "The industrial timeline began with steam-powered mechanization (1st), followed by electrical mass production (2nd), then computer-driven automation (3rd). We are currently in the 4th revolution, defined by the Industrial Internet of Things (lloT) and smart, interconnected systems."
+        },
+        {
+          "questionNumber": 10,
+          "questionText": "Which of the following is used to improve interoperability across different systems?",
+          "options": [
+            "a. Standardization",
+            "b. Optimization",
+            "c. Monitoring",
+            "d. None of these"
+          ],
+          "explanation": "Standardization creates a common set of rules and protocols that allow diverse hardware and software systems to communicate and exchange data seamlessly. Without these shared standards, different systems would remain isolated, making cross-platform cooperation and integration impossible."
+        },
+        {
+          "questionNumber": 11,
+          "questionText": "Fill in the blank.\n......... is a primary challenge in IloT.",
+          "options": [
+            "a. Worker health and safety",
+            "b. Optimised operations",
+            "c. Regulatory compliance",
+            "d. Integrating existing infrastructure into new IIoT infrastructure"
+          ],
+          "explanation": "Many industrial sites rely on \"legacy systems\" that were never designed for internet connectivity, making it difficult to link old machinery with modern digital networks. This integration requires complex gateways and protocols to ensure that data flows smoothly without disrupting established production lines."
+        },
+        {
+          "questionNumber": 12,
+          "questionText": "State True or False.\nLack of vision and leadership is not a hindrance in the path of success of lloT.",
+          "options": [
+            "a. True",
+            "b. False"
+          ],
+          "explanation": "A lack of vision and leadership is a major hindrance because IIoT requires significant strategic shifts and long-term investment. Without strong leadership to define goals and manage organizational change, technical implementation often stalls or fails to deliver real business value."
+        },
+        {
+          "questionNumber": 13,
+          "questionText": "State True or False. Big data is characterized by 7 Vs.",
+          "options": [
+            "a. True",
+            "b. False"
+          ],
+          "explanation": "While Big Data originally focused on the 3 Vs (Volume, Velocity, Variety), it has evolved to include four more: Veracity, Value, Variability, and Visualization. These seven characteristics collectively define the complexity and potential of processing massive datasets in modern environments."
+        },
+        {
+          "questionNumber": 14,
+          "questionText": "What is the correct flow of data processing?",
+          "options": [
+            "a. Acquisition > Generation > Storage > Analysis",
+            "b. Generation > Storage > Analysis > Acquisition",
+            "c. Generation > Acquisition > Storage > Analysis",
+            "d. None of these"
+          ],
+          "explanation": "Data is first created by a source (Generation) and then gathered through sensors or logs (Acquisition). Once collected, it is kept in a database or cloud (Storage) so that it can finally be examined to find meaningful patterns (Analysis)."
+        },
+        {
+          "questionNumber": 15,
+          "questionText": "Hadoop is primarily used for:",
+          "options": [
+            "a. Distributed processing of large datasets",
+            "b. Large clusters of computers",
+            "c. All of these",
+            "d. Neither a nor b"
+          ],
+          "explanation": "Hadoop is an open-source framework designed to store and process massive amounts of data across large clusters of commodity hardware. It uses a distributed processing model, primarily through MapReduce, to handle data tasks in parallel, making it highly scalable and reliable."
+        }
+      ]
+    }
+  ]
+}

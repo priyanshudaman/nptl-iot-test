@@ -1,0 +1,175 @@
+{
+  "document": "Introduction To Internet Of Things JAN 2026",
+  "assignments": [
+    {
+      "title": "Week 5 Assignment",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionText": "What does the term \"Interoperability\" refer to in the context of loT?",
+          "options": [
+            "a. The ability of a system to operate without power",
+            "b. The ability of different systems/products to work together without restrictions",
+            "c. The ability to increase the speed of the internet",
+            "d. None of these"
+          ],
+          "explanation": "In IoT, Interoperability means that devices from different manufacturers (like a Philips bulb and a Samsung hub) can \"talk\" to each other and exchange data using common protocols."
+        },
+        {
+          "questionNumber": 2,
+          "questionText": "In the collaborative concept (Cosine) theory for interoperability, an object is defined as a quadruple (A, B, C, D). What does 'C' represent?",
+          "options": [
+            "a. The natural language used",
+            "b. The internal identifier",
+            "c. The context of A",
+            "d. The definition of the object"
+          ],
+          "explanation": "In the COSINE (COllaborative Systems for INteroperability in industrial Enterprises) framework, an object is defined by the quadruple (ID,N,C,D). Here, C stands for Context, which defines the environment or circumstances in which the object A (the identifier/name) exists."
+        },
+        {
+          "questionNumber": 3,
+          "questionText": "Which of the following best describes the \"Syntactic Interoperability\" challenge?",
+          "options": [
+            "a. Devices having different physical shapes",
+            "b. Devices using different message formats and data structures",
+            "c. Devices located in different countries",
+            "d. Devices having different owners"
+          ],
+          "explanation": "Syntactic Interoperability focuses on the \"grammar\" of data exchange. It ensures that when two systems communicate, they use the same syntax (like JSON, XML, or specific bit structures) so that the receiving system can correctly parse and process the incoming data packets."
+        },
+        {
+          "questionNumber": 4,
+          "questionText": "Which of the following is a primary reason for the popularity of Arduino in loT implementations?",
+          "options": [
+            "a) It is highly expensive and exclusive",
+            "b) It is low resource-consuming and cheap",
+            "c) It requires high-power external cooling",
+            "d) It only supports digital signals"
+          ],
+          "explanation": "Arduino is popular because it is cost-effective, open-source, and runs on very little power. Its simple hardware and software (IDE) make it easy for beginners and professionals to prototype loT devices without needing expensive or complex infrastructure."
+        },
+        {
+          "questionNumber": 5,
+          "questionText": "What is the clock speed of the Arduino Uno board?",
+          "options": [
+            "a) 8 MHz",
+            "b) 32 MHz",
+            "c) 16 MHz",
+            "d) 50 MHz"
+          ],
+          "explanation": "The Arduino Uno uses the ATmega328P microcontroller, which is equipped with a ceramic resonator or crystal oscillator that runs at a clock speed of 16 MHz. This allows it to execute approximately 16 million instructions per second."
+        },
+        {
+          "questionNumber": 6,
+          "questionText": "Which function is used to iteratively loop over instances in an Arduino sketch?",
+          "options": [
+            "a) setup()",
+            "b) main()",
+            "c) loop()",
+            "d) start()"
+          ],
+          "explanation": "In an Arduino sketch, the loop() function runs continuously after the setup() function finishes. It allows the board to actively monitor sensors and control outputs in a repeated cycle as long as the board has power."
+        },
+        {
+          "questionNumber": 7,
+          "questionText": "In Arduino, what is the default starting index for an array?",
+          "options": [
+            "a) 1",
+            "b) -1",
+            "c) 0",
+            "d) 10"
+          ],
+          "explanation": "Arduino is based on the C/C++ programming language, which uses zero-based indexing. This means the first element of an array is always accessed at index 0."
+        },
+        {
+          "questionNumber": 8,
+          "questionText": "What does the delay(5000) command do in a traffic signal simulation?",
+          "options": [
+            "a) Resets the Arduino board",
+            "b) Introduces a delay of 5 seconds",
+            "c) Turns off all LEDs immediately",
+            "d) Skips the current execution loop"
+          ],
+          "explanation": "The delay() function in Arduino takes a value in milliseconds. Since 1000 ms = 1 second, the command delay (5000) pauses the program execution for exactly 5 seconds before moving to the next line of code."
+        },
+        {
+          "questionNumber": 9,
+          "questionText": "Which header file must be called to use mathematical functions like sin() or cos()?",
+          "options": [
+            "a) arduino.h",
+            "b) math.h",
+            "c) sensor.h",
+            "d) stdio.h"
+          ],
+          "explanation": "The math.h library contains the definitions for common mathematical operations, including trigonometry (sin, cos, tan), logarithms, and square roots. While some Arduino versions include it by default, it is the standard C library for these functions."
+        },
+        {
+          "questionNumber": 10,
+          "questionText": "The DHT22 sensor is used for measuring which physical quantities?",
+          "options": [
+            "a) Pressure and Altitude",
+            "b) Light and Sound",
+            "c) Humidity and Temperature",
+            "d) Motion and Direction"
+          ],
+          "explanation": "The DHT22 (also known as AM2302) is a popular digital sensor that uses a capacitive humidity sensing element and a thermistor to measure the surrounding air. It provides high-precision data for both humidity and temperature."
+        },
+        {
+          "questionNumber": 11,
+          "questionText": "What is the recommended voltage range for the VCC pin of a DHT sensor to avoid damage?",
+          "options": [
+            "a) 1V to 2V",
+            "b) 3.3V to 5V",
+            "c) 12V to 24V",
+            "d) OV to 1V"
+          ],
+          "explanation": "Most DHT sensors (like the DHT11 and DHT22) are designed to operate within a 3.3V to 5V range. Supplying a higher voltage, such as 12V, can permanently damage the sensor's internal circuitry."
+        },
+        {
+          "questionNumber": 12,
+          "questionText": "When integrating a typical digital temperature and humidity sensor (like the DHT series) with an Arduino board, which Arduino pin connection is used to receive the sensor's data?",
+          "options": [
+            "a) Ground (GND)",
+            "b) Signal/data pin",
+            "c) 5 V power pin",
+            "d) Analog input AREF"
+          ],
+          "explanation": "The Signal/Data pin is used for the single-wire digital communication between the DHT sensor and the Arduino. While GND and 5V provide power, the data pin carries the actual temperature and humidity readings."
+        },
+        {
+          "questionNumber": 13,
+          "questionText": "Which of the following describes the primary function of an actuator?",
+          "options": [
+            "a. Converts motion to energy",
+            "b. Converts energy or signals into motion",
+            "c. Stores data",
+            "d. Connects to the internet"
+          ],
+          "explanation": "An actuator is the component of a machine that is responsible for moving and controlling a mechanism or system. It takes a control signal (like an electrical pulse from an Arduino) and energy (electricity, air, or hydraulic fluid) and turns it into physical movement."
+        },
+        {
+          "questionNumber": 14,
+          "questionText": "When using the Servo library in Arduino, which function is used to specify the pin where the servo is connected?",
+          "options": [
+            "a. servo.connect()",
+            "b. servo.attach()",
+            "c. servo.pinMode()",
+            "d. servo.write()"
+          ],
+          "explanation": "In the Arduino Servo library, the attach() function is used to link a specific digital pin to a servo motor object. For example, myservo.attach(9) tells the Arduino that the servo signal wire is connected to pin 9."
+        },
+        {
+          "questionNumber": 15,
+          "questionText": "In the context of the Arduino Servo library, which of the following is the correct function to command the servo motor to rotate to a specific angle?",
+          "options": [
+            "a. servo.move(angle)",
+            "b. servo.rotate(angle)",
+            "c. servo.write(angle)",
+            "d. servo.turn(angle)"
+          ],
+          "explanation": "The write() function is the standard command used in the Arduino Servo library to set the shaft of the servo to a specific position. For a standard servo, this is typically an angle between 0 and 180 degrees."
+        }
+      ]
+    }
+  ]
+}

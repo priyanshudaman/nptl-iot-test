@@ -1,0 +1,169 @@
+{
+  "document": "Introduction To Internet Of Things JAN 2026",
+  "assignments": [
+    {
+      "title": "Week 12 Assignment",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionText": "The two broad types of data analysis are",
+          "options": [
+            "a. Qualitative and Quantitative",
+            "b. Repetitive and Quantitative",
+            "c. Repetitive and Qualitative",
+            "d. All of these"
+          ],
+          "explanation": "Quantitative analysis focuses on numerical data and statistical patterns to answer \"how many\" or \"how much.\" Qualitative analysis deals with non numerical information, such as text or video, to understand underlying meanings, concepts, or experiences."
+        },
+        {
+          "questionNumber": 2,
+          "questionText": "Which of the following is/are the basic principle(s) of qualitative analysis?",
+          "options": [
+            "a. Notice things",
+            "b. Think about things",
+            "c. Collect things",
+            "d. All of these"
+          ],
+          "explanation": "Qualitative analysis follows an iterative process often described as \"Noticing, Collecting, and Thinking.\" Researchers notice interesting phenomena, collect data (like interviews or observations) to document them, and think about patterns to form meaningful insights."
+        },
+        {
+          "questionNumber": 3,
+          "questionText": "To perform an ANOVA, we must have a ….. response variable and at least one ….. Factor.",
+          "options": [
+            "a. Discrete, categorical",
+            "b. Continuous, quantitative",
+            "c. Discrete, quantitative",
+            "d. Continuous, categorical"
+          ],
+          "explanation": "ANOVA (Analysis of Variance) requires a continuous dependent variable (like height or weight) to calculate means. The independent variables must be categorical factors (like gender or treatment groups) to divide the data into distinct sets for comparison."
+        },
+        {
+          "questionNumber": 4,
+          "questionText": "Which of the following is/are application(s) of IoT in agriculture?",
+          "options": [
+            "a. Automated irrigation system",
+            "b. Automated weeding system",
+            "c. Water level monitoring",
+            "d. All of these"
+          ],
+          "explanation": "IoT transforms agriculture by using sensors for real-time water level monitoring and controlling automated irrigation to conserve resources. It also enables automated weeding through computer vision and robotics, significantly reducing the need for manual labor and chemical herbicides."
+        },
+        {
+          "questionNumber": 5,
+          "questionText": "The two most directly relevant sensors used in agriculture (as discussed) are …….",
+          "options": [
+            "a. Soil moisture and proximity sensor",
+            "b. Soil moisture and water level sensor",
+            "c. ECG sensor and water level sensor",
+            "d. All of these"
+          ],
+          "explanation": "Soil moisture sensors are vital for measuring the water content in the ground to determine when to irrigate, while water level sensors monitor reservoirs or tanks. Together, they allow for precise water management, ensuring crops receive the exact amount of hydration needed without wasting resources."
+        },
+        {
+          "questionNumber": 6,
+          "questionText": "The deployed IoT gateway of AgriSens communicates with the remote server using:",
+          "options": [
+            "a. WiFi",
+            "b. Bluetooth",
+            "c. Internet Phone System",
+            "d. GPRS"
+          ],
+          "explanation": "In agricultural settings, where fields are often located far from standard WiFi or wired networks, GPRS (General Packet Radio Service) is used for its wide cellular coverage. It allows the AgriSens gateway to transmit sensor data over long distances to a remote server for real-time monitoring."
+        },
+        {
+          "questionNumber": 7,
+          "questionText": "Select the correct order of component layers in IoT healthcare.",
+          "options": [
+            "a. Sensing layer, cloud platform layer, aggregated layer, processing layer",
+            "b. Sensing layer, aggregated layer, processing layer, cloud platform layer",
+            "c. Aggregated layer, sensing layer, processing layer, cloud platform layer",
+            "d. Sensing layer, processing layer, aggregated layer, cloud platform layer"
+          ],
+          "explanation": "Data starts at the Sensing layer (wearables/sensors), moves to the Aggregated layer (gateways) to be collected, and then to the Processing layer for immediate analysis. Finally, the processed data is sent to the Cloud platform layer for long-term storage and advanced health monitoring."
+        },
+        {
+          "questionNumber": 8,
+          "questionText": "In AmbuSens, which communication protocol is used?",
+          "options": [
+            "a. IEEE 802.15.4",
+            "b. 6LoWPAN",
+            "c. IEEE 802.15.1",
+            "d. IEEE 802.15.2"
+          ],
+          "explanation": "AmbuSens systems use IEEE 802.15.1 (Bluetooth) for short-range wireless communication between sensors and devices. This protocol is suitable for low power medical and sensing applications. It enables reliable data transfer in ambulatory and healthcare environments."
+        },
+        {
+          "questionNumber": 9,
+          "questionText": "State True or False. Wireless IoT-driven remote healthcare provisioning brings healthcare to patients rather than bringing patients to healthcare.",
+          "options": [
+            "a. True",
+            "b. False"
+          ],
+          "explanation": "Remote healthcare uses wearable sensors and wireless networks to monitor patients from their own homes in real-time. This shifts the medical model from hospital-centric to patient-centric, reducing the need for physical travel while maintaining constant medical supervision."
+        },
+        {
+          "questionNumber": 10,
+          "questionText": "Which handheld device sensor pair is used for activity monitoring (as discussed)?",
+          "options": [
+            "a. EEG and GPS",
+            "b. Accelerometer and EEG",
+            "c. Accelerometer and GPS",
+            "d. All of these"
+          ],
+          "explanation": "The accelerometer measures the rate of change in velocity to detect specific movements like walking or running, while the GPS tracks the user's geographical location and distance traveled. Together, they provide a complete picture of a person's physical activity and movement patterns."
+        },
+        {
+          "questionNumber": 11,
+          "questionText": "Which of the following is a property of in-place data analysis for activity monitoring?",
+          "options": [
+            "a. Power intensive",
+            "b. On the device",
+            "c. No need of network",
+            "d. All of these"
+          ],
+          "explanation": "In-place analysis occurs directly on the device (like a smartwatch), eliminating the need for a network to send raw data to a server. However, performing complex computations locally is power intensive, as the device's processor must work harder, which can drain the battery quickly."
+        },
+        {
+          "questionNumber": 12,
+          "questionText": "State True or False. Deep learning-based analysis cannot be performed on videos.",
+          "options": [
+            "a. True",
+            "b. False"
+          ],
+          "explanation": "Deep learning is widely used for video analysis through architectures like Convolutional Neural Networks (CNNs) for spatial features and Recurrent Neural Networks (RNNs/LSTMs) or Transformers for temporal sequences. These models enable tasks like facial recognition, action detection, and object tracking in real-time video feeds."
+        },
+        {
+          "questionNumber": 13,
+          "questionText": "Which of the following are inbuilt sensors present in high-end smartphones (as discussed)?",
+          "options": [
+            "a. ECG and EEG",
+            "b. Accelerometer, proximity sensor, and EEG",
+            "c. Accelerometer, Compass, and Gyroscope",
+            "d. Pressure sensor and NPK sensor"
+          ],
+          "explanation": "Most high-end smartphones include this \"motion-sensing\" trio: the accelerometer detects linear movement, the gyroscope measures orientation and rotation, and the compass (magnetometer) identifies the phone's heading relative to Earth's magnetic field. Sensors like ECG, EEG, and NPK (soil nutrients) are typically external or medical-grade and are not standard internal phone components."
+        },
+        {
+          "questionNumber": 14,
+          "questionText": "Processing the handheld activity device data using artificial intelligence can be used for…",
+          "options": [
+            "a. Fall detection",
+            "b. Heart rate detection",
+            "c. Vehicle detection",
+            "d. All of these"
+          ],
+          "explanation": "While smartphones can track various metrics, AI specifically analyzes data from the accelerometer and gyroscope to identify the sudden, sharp movements characteristic of a fall. Once a fall is detected, the device can automatically trigger emergency alerts, providing a vital safety feature for elderly or high-risk users."
+        },
+        {
+          "questionNumber": 15,
+          "questionText": "State True or False. Continuous monitoring of a person's activity can help observe behavior and identify repetitive patterns.",
+          "options": [
+            "a. True",
+            "b. False"
+          ],
+          "explanation": "Continuous monitoring allows for the collection of long-term data, which AI can analyze to establish a \"baseline\" of normal behavior. By identifying repetitive patterns, systems can detect subtle changes—such as a decrease in movement or disrupted sleep—which can serve as early warning signs for health or mental well-being issues."
+        }
+      ]
+    }
+  ]
+}

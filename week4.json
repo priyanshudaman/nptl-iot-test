@@ -1,0 +1,164 @@
+{
+  "document": "Introduction To Internet Of Things JAN 2026",
+  "assignments": [
+    {
+      "title": "Week 4 Assignment",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionText": "State whether the following statement is true or false. Statement: Instead of a PIR sensor, a camera can also be used in the agricultural field to detect intruders.",
+          "options": [
+            "(a) True",
+            "(b) False"
+          ],
+          "explanation": "A camera can be used as a sophisticated alternative to a PIR sensor for intruder detection. While a PIR sensor only detects thermal movement, a camera combined with Computer Vision or Al can specifically identify humans or animals, reducing false alarms and providing visual evidence from the field."
+        },
+        {
+          "questionNumber": 2,
+          "questionText": "An ultrasonic sensor senses the at which the object is located.",
+          "options": [
+            "a. distance",
+            "b. coordinates",
+            "c. Both (a) and (b)",
+            "d. None of these"
+          ],
+          "explanation": "An ultrasonic sensor works by emitting high-frequency sound waves and measuring the time it takes for the echo to bounce back from an object. This \"Time of Flight\" is used to calculate the specific distance of the object, rather than its exact spatial coordinates."
+        },
+        {
+          "questionNumber": 3,
+          "questionText": "WMSNs can be used for",
+          "options": [
+            "a. Security surveillance",
+            "b. Wild-habitat monitoring",
+            "c. Environmental monitoring",
+            "d. All of these"
+          ],
+          "explanation": "WMSNS (Wireless Multimedia Sensor Networks) are capable of capturing and transmitting high-quality data like video, audio, and images. This makes them versatile for security surveillance (detecting intruders), wild-habitat monitoring (tracking animal behavior), and environmental monitoring (observing natural phenomena like landslides or floods)."
+        },
+        {
+          "questionNumber": 4,
+          "questionText": "State whether the following statement is true or false. Statement: Objective of coverage in WSN is to use minimum number of sensors and maximize network lifetime.",
+          "options": [
+            "a. True",
+            "b. False"
+          ],
+          "explanation": "In WSN (Wireless Sensor Networks), the goal of coverage is to ensure that every point in a target area is monitored. To do this efficiently, the network aims to use the minimum number of sensors possible while maintaining high sensing quality, which helps conserve energy and maximize the overall network lifetime."
+        },
+        {
+          "questionNumber": 5,
+          "questionText": "What is the full form of AUV in the context of mobile wireless sensor networks?",
+          "options": [
+            "a. Aerial and Underwater Vehicle",
+            "b. Ambient and Underprivileged Vehicle",
+            "c. Astral Underwater Vehicle",
+            "d. None of these"
+          ],
+          "explanation": "The full form of AUV is Autonomous Underwater Vehicle. These are self-driving robots that travel underwater without requiring real-time input from a human operator. They are vital in mobile sensor networks for ocean floor mapping and underwater environmental monitoring."
+        },
+        {
+          "questionNumber": 6,
+          "questionText": "State whether the following statement is true or false. In the localized coverage algorithm, special types of distributed algorithms are used where only one subset of nodes participates in sensing, communication, and computation.",
+          "options": [
+            "a. True",
+            "B. False"
+          ],
+          "explanation": "In a localized coverage algorithm, only a selected subset of sensor nodes remains active at a time. These nodes handle sensing, communication, and computation while others stay inactive to save energy. This is a distributed approach that improves efficiency and network lifetime."
+        },
+        {
+          "questionNumber": 7,
+          "questionText": "Which of the following is/are advantage/advantages of Stationary Wireless Sensor Networks?",
+          "options": [
+            "a. Easy deployment",
+            "b. Easy topology maintenance",
+            "c. Both (a) and (b)",
+            "d. None of these"
+          ],
+          "explanation": "Stationary wireless sensor networks are easier to deploy since nodes are fixed in one place. They also have stable network structures, making topology maintenance simpler. This reduces complexity compared to mobile networks."
+        },
+        {
+          "questionNumber": 8,
+          "questionText": "State true or false. In Human-centric Sensing, humanbeings can act as Sensor Operators?",
+          "options": [
+            "a. True",
+            "b. False"
+          ],
+          "explanation": "In Human-centric Sensing, humans take an active role in the sensing process. They act as Sensor Operators by using their smartphones or wearable devices to manually record data, upload photos, or provide subjective feedback (like reporting a pothole or air quality) to a central system."
+        },
+        {
+          "questionNumber": 9,
+          "questionText": "Which of the following is not a property of MANET-infrastructure less network of mobile devices connected wirelessly?",
+          "options": [
+            "a. Self-CHOP",
+            "b. Self-HOP",
+            "c. Both (a) and (b)",
+            "d. None of these"
+          ],
+          "explanation": "In a MANET (Mobile Ad hoc Network), nodes are self-configuring and communicate without fixed infrastructure. \"Self-CHOP\" and \"Self-HOP\" are not standard or recognized properties of MANETS. MANET properties include self-organization, dynamic topology, and multi-hop communication."
+        },
+        {
+          "questionNumber": 10,
+          "questionText": "State whether the following statement is true or false. Statement: UAV networks provide a solution for deployments where there is a need for frequent change configurations.",
+          "options": [
+            "a. False",
+            "b. True"
+          ],
+          "explanation": "UAV networks (Unmanned Aerial Vehicle networks) are highly valued for their flexibility and mobility. Unlike fixed ground infrastructure, UAVs can be rapidly redeployed, their flight paths can be altered, and their network topology can be reconfigured on-the-fly. This makes them an ideal solution for scenarios requiring frequent configuration changes, such as disaster management, temporary event monitoring, or dynamic military operations."
+        },
+        {
+          "questionNumber": 11,
+          "questionText": "Which of the following is NOT a feature of mesh topology in UAV system?",
+          "options": [
+            "a. Flexible",
+            "b. Reliable",
+            "c. None of these",
+            "d. Both (a) and (b)"
+          ],
+          "explanation": "Mesh topology main Flexibility (nodes kahin bhi ja sakte hain) aur Reliability (ek node fail hone par doosra rasta mil jata hai) dono hote hain. Isliye dono hi mesh ke features hain."
+        },
+        {
+          "questionNumber": 12,
+          "questionText": "Which of the following is not a property of a FANET?",
+          "options": [
+            "a. Inter-plane communication",
+            "b. Intra-plane communication",
+            "c. Both (a) and (b)",
+            "d. None of these"
+          ],
+          "explanation": "FANETS (Flying Ad-hoc Networks) involve both Intra-plane communication (communication between multiple UAVs/drones in the air) and Inter-plane communication (communication between the flying nodes and ground stations or satellites)"
+        },
+        {
+          "questionNumber": 13,
+          "questionText": "State true or false. M2M networks are characterized by a few number of sensor nodes deployed over a large area.",
+          "options": [
+            "a. False",
+            "b. True",
+            "c. Can not be determined"
+          ],
+          "explanation": "M2M (Machine-to-Machine) networks are typically characterized by a large number of devices or sensor nodes. These nodes are designed to communicate with each other or a central system without human intervention, often in high density across various industrial or smart-city applications."
+        },
+        {
+          "questionNumber": 14,
+          "questionText": "What is the full form of M2SP in the context of Machine-to-Machine Communication?",
+          "options": [
+            "a. M2M Stateless Platform",
+            "b. M2M Session Packet",
+            "c. M2M Secure Packaging",
+            "d. None of these"
+          ],
+          "explanation": "The full form of M2SP in Machine-to-Machine communication is M2M Service Platform. It is the middle layer that provides common functions like data management, security, and device connectivity for M2M applications."
+        },
+        {
+          "questionNumber": 15,
+          "questionText": "The......... provides integrated services based on device collected data-sets",
+          "options": [
+            "a. M2M Application Platform",
+            "b. M2M Service Platform",
+            "c. M2M Hardware Platform",
+            "d. None of these"
+          ],
+          "explanation": "The M2M (Machine-to-Machine) Application Platform uses data collected from connected devices to provide integrated services. It processes, analyzes, and manages device data to support various applications. This enables automation and smart decision-making."
+        }
+      ]
+    }
+  ]
+}

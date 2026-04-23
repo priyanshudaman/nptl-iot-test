@@ -1,0 +1,169 @@
+{
+  "document": "Introduction To Internet Of Things JAN 2026",
+  "assignments": [
+    {
+      "title": "Week 10 Assignment",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionText": "Smart cities are System.",
+          "options": [
+            "a. local",
+            "b. rural",
+            "c. home",
+            "d. Urban"
+          ],
+          "explanation": "Smart cities are specifically designed for Urban environments, using loT sensors and data analytics to manage city assets like traffic, power plants, and waste. The goal is to improve the quality of life and efficiency for the large populations living in these modernized city centers."
+        },
+        {
+          "questionNumber": 2,
+          "questionText": "Which of the following is an area of focus in smart parking lots?",
+          "options": [
+            "a. Auto-routing of vehicles",
+            "b. Auto-charging of vehicles",
+            "c. Detection of slots in parking lots",
+            "d. All of these"
+          ],
+          "explanation": "Smart parking systems use sensors to provide real-time detection of available slots, which then enables auto-routing to guide drivers directly to an empty space. Additionally, modern smart lots often integrate auto-charging stations for electric vehicles to manage power distribution efficiently based on occupancy."
+        },
+        {
+          "questionNumber": 3,
+          "questionText": "Select the statement(s) that are true for smart health.\nStatement I: Smart health is low-cost and portable.\nStatement II: Smart health allows remote check-ups and diagnosis.\nStatement III: Smart health enables effortless health monitoring.",
+          "options": [
+            "a. Statement I",
+            "b. Statement II",
+            "c. Statements I, II, and III",
+            "d. None of these"
+          ],
+          "explanation": "Smart health leverages wearable loT devices that are low-cost and portable, making constant health tracking accessible to everyone. By providing real-time data to doctors, it enables remote check-ups and diagnosis while allowing for effortless monitoring of vital signs without requiring frequent hospital visits."
+        },
+        {
+          "questionNumber": 4,
+          "questionText": "What refers to combining information from multiple sensor sources?",
+          "options": [
+            "a. Information collection",
+            "b. Multi-sensor deployment",
+            "c. Multi-sensor dissemination",
+            "d. Multi-sensor data fusion"
+          ],
+          "explanation": "Data fusion is the process of integrating data from multiple sensors to produce more accurate, reliable, and complete information than what a single sensor could provide. By combining diverse inputs, the system can reduce errors and filter out noise to get a clearer \"big picture\" of the environment."
+        },
+        {
+          "questionNumber": 5,
+          "questionText": "The ensemble of all the decisions happens at the ........... level (in data fusion).",
+          "options": [
+            "a. Feature level",
+            "b. Decision level",
+            "c. Pixel level",
+            "d. All of these"
+          ],
+          "explanation": "In data fusion, decision-level fusion occurs when multiple sensors or models process data independently to reach their own preliminary conclusions. These individual results are then combined or \"ensembled\" using specific algorithms to make a final, more accurate determination."
+        },
+        {
+          "questionNumber": 6,
+          "questionText": "The smart parking system reduces traffic",
+          "options": [
+            "a. mobility",
+            "b. area",
+            "c. analysis",
+            "d. Congestion"
+          ],
+          "explanation": "Smart parking systems guide drivers directly to available spots, preventing them from circling blocks in search of a space. This drastically reduces the number of vehicles on the road at any given time, which minimizes traffic congestion and lowers carbon emissions in urban areas."
+        },
+        {
+          "questionNumber": 7,
+          "questionText": "DLNA (used in HAN standards) expands to:",
+          "options": [
+            "a. Digital Lifestyle Network Alliance",
+            "b. Digital Living Network Alliance",
+            "c. Digital Lifestyle Network Algorithm",
+            "d. None of these"
+          ],
+          "explanation": "DLNA is a non-profit trade organization established by Sony in 2003 that defines guidelines for sharing digital media between multimedia devices. In a Home Area Network (HAN), it ensures that devices like smartphones, televisions, and PCs from different manufacturers can communicate and share content seamlessly."
+        },
+        {
+          "questionNumber": 8,
+          "questionText": "Smart home infrastructure cannot include wireless devices.",
+          "options": [
+            "a. True",
+            "b. False"
+          ],
+          "explanation": "Wireless devices are actually the backbone of modern smart home infrastructure, utilizing protocols like Wi-Fi, Zigbee, and Z-Wave for easy installation and flexibility. These technologies allow smart locks, lights, and sensors to communicate without the need for extensive and expensive physical wiring throughout the house."
+        },
+        {
+          "questionNumber": 9,
+          "questionText": "Which of the following is/are layers of Zigbee?",
+          "options": [
+            "a. Physical layer",
+            "b. MAC layer",
+            "c. Network layer",
+            "d. All of these"
+          ],
+          "explanation": "Zigbee is built on a layered architecture that includes the Physical and MAC layers (defined by IEEE 802.15.4) for radio communication and data framing. It also adds its own Network layer to handle routing and joining/leaving the network, along with an Application layer for specific device tasks."
+        },
+        {
+          "questionNumber": 10,
+          "questionText": "Which of the following is a property of V2X?",
+          "options": [
+            "a. Restricted to a single source",
+            "b. Distributed architecture",
+            "c. Both a and b",
+            "d. Neither a nor b"
+          ],
+          "explanation": "V2X (Vehicle-to-Everything) communication relies on a distributed architecture where vehicles, infrastructure, and pedestrians exchange data directly without always needing a central server. This allows for real-time, peer-to-peer updates that are essential for safety and autonomous coordination on the road."
+        },
+        {
+          "questionNumber": 11,
+          "questionText": "CCN is derived from ICN architecture.",
+          "options": [
+            "a. True",
+            "b. False"
+          ],
+          "explanation": "Content-Centric Networking (CCN) is a specific implementation or architecture that falls under the broader paradigm of Information-Centric Networking (ICN). While ICN is the general concept of focusing on \"what\" data is requested rather than \"where\" it is located, CCN provides the technical framework to achieve this using named data."
+        },
+        {
+          "questionNumber": 12,
+          "questionText": "Fill in the blank. In Vehicle-to-human/human-to-vehicle interaction, the human communicating with the vehicle",
+          "options": [
+            "a. is present in another vehicle",
+            "b. is present in the same vehicle",
+            "c. is present outside the vehicle on the roadside",
+            "d. All of these"
+          ],
+          "explanation": "In Vehicle-to-Human (V2H) or Human-to-Vehicle interaction, the communication happens between a vehicle and a pedestrian. Here, the human is typically outside the vehicle, such as on the roadside. This enables safety communication in smart transportation systems."
+        },
+        {
+          "questionNumber": 13,
+          "questionText": "Fill in the blank. ICV communication is based on...",
+          "options": [
+            "a. Dedicated Short Range Communication",
+            "b. Directed Short Range Communication",
+            "c. Dedicated Small Range Communication",
+            "d. All of these"
+          ],
+          "explanation": "ICV (Intelligent Connected Vehicle) communication primarily utilizes Dedicated Short Range Communication (DSRC), a high-speed wireless technology designed specifically for automotive use. It enables low-latency communication over short distances, which is critical for safety-related tasks like collision avoidance and traffic signal synchronization."
+        },
+        {
+          "questionNumber": 14,
+          "questionText": "Which of the following is/are domains of VANET?",
+          "options": [
+            "a. In-vehicle",
+            "b. Ad-hoc",
+            "c. Both a and b",
+            "d. Neither a nor b"
+          ],
+          "explanation": "VANETS (Vehicular Ad-hoc Networks) operate across the In-vehicle domain, which manages internal sensors and passenger devices, and the Ad-hoc domain, which allows vehicles to communicate spontaneously with each other (V2V) and with roadside infrastructure (V21). These domains work together to support both local vehicle performance and broad network safety."
+        },
+        {
+          "questionNumber": 15,
+          "questionText": "The vehicles cannot be mobile in the Ad-hoc domain of VANET.",
+          "options": [
+            "a. True",
+            "b. False"
+          ],
+          "explanation": "Mobility is the core characteristic of the Ad-hoc domain in a VANET (Vehicular Ad-hoc Network). Vehicles act as mobile nodes that constantly move, join, and leave the network. The domain is specifically designed to handle this high-speed mobility by allowing vehicles to create spontaneous, wireless connections with each other even while traveling at high velocities."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "document": "Introduction To Internet Of Things JAN 2026",
+  "assignments": [
+    {
+      "title": "Week 8 Assignment",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionText": "Which architecture proposes the use of an agent placed at access points to communicate with the controller in Software Defined Mobile Networks?",
+          "options": [
+            "a. uFlow",
+            "b. Odin",
+            "c. MobileFlow",
+            "d. OpenFlow"
+          ],
+          "explanation": "Odin is an SDN framework specifically designed for wireless networks that introduces an \"agent\" on the access points to handle client-specific logic. This allows the central controller to manage high-level tasks like handovers and load balancing while the agents manage the low-level communication."
+        },
+        {
+          "questionNumber": 2,
+          "questionText": "Which solution was proposed by the SWAN group for mobility-aware flow rule placement in mobile-based IoT systems?",
+          "options": [
+            "a. Odin",
+            "b. uFlow",
+            "c. Mobile Flow",
+            "d. Soft-WSN"
+          ],
+          "explanation": "MobileFlow is the solution proposed by the SWAN group for mobility-aware flow rule placement in mobile loT systems. It is designed to handle dynamic network changes due to mobility of devices. This improves routing efficiency and reduces delays in SDN-based IoT environments."
+        },
+        {
+          "questionNumber": 3,
+          "questionText": "In the context of Data Center Networking using SDN, which type of flow requires exact match rules?",
+          "options": [
+            "a. Mice flow",
+            "b. Elephant flow",
+            "c. Cheetah flow",
+            "d. Tortoise flow"
+          ],
+          "explanation": "In SDN-based data center networking, elephant flows are large, long-lived data transfers that require precise handling. They often use exact match rules to ensure efficient routing and resource allocation. This helps in managing congestion and optimizing network performance."
+        },
+        {
+          "questionNumber": 4,
+          "questionText": "Cloud computing is best described as using computing as a:",
+          "options": [
+            "a. Utility",
+            "b. Product",
+            "c. Protocol",
+            "d. None of these"
+          ],
+          "explanation": "Cloud computing allows users to access resources like storage and processing power over the internet on-demand. Similar to water or electricity, you pay only for what you use, rather than buying and maintaining the physical hardware yourself as a standalone product."
+        },
+        {
+          "questionNumber": 5,
+          "questionText": "Which of the following is NOT an essential characteristic of Cloud Computing?",
+          "options": [
+            "a. Rapid Elasticity",
+            "b. Measured Service",
+            "c. Resource Pooling",
+            "d. Fixed Resource Allocation"
+          ],
+          "explanation": "Cloud computing relies on the ability to scale resources up or down based on demand. Fixed resource allocation contradicts the core principle of Rapid Elasticity, which ensures that users can dynamically adjust their computing power rather than being locked into a set amount."
+        },
+        {
+          "questionNumber": 6,
+          "questionText": "Which deployment model is restricted to a single organization where cloud functionalities are available only within that organization?",
+          "options": [
+            "a. Public Cloud",
+            "b. Private Cloud",
+            "c. Hybrid Cloud",
+            "d. Community Cloud"
+          ],
+          "explanation": "A private cloud is a cloud environment dedicated solely to one organization. It can be hosted on-site or by a third-party provider, but the infrastructure and services are maintained on a private network and are not accessible to the general public."
+        },
+        {
+          "questionNumber": 7,
+          "questionText": "In which service model are the Applications and Data managed by the user, while the Runtime, Middleware, and OS are managed by the provider?",
+          "options": [
+            "a. SaaS",
+            "b. PaaS",
+            "c. laas",
+            "d. None of these"
+          ],
+          "explanation": "In Platform as a Service (PaaS), the provider gives you a platform including the OS, runtime, and middleware so you can focus solely on developing and managing your Applications and Data. This removes the burden of managing the underlying infrastructure or software updates."
+        },
+        {
+          "questionNumber": 8,
+          "questionText": "Which service model allows customers to rent virtualized servers and associated services, focusing on infrastructure like networking and storage?",
+          "options": [
+            "a. SaaS",
+            "b. PaaS",
+            "c. laas",
+            "d. Xaas"
+          ],
+          "explanation": "Infrastructure as a Service (laas) provides the most fundamental building blocks of cloud computing. It allows users to rent raw computing power, virtual servers, storage, and networking, giving them full control over the operating system and applications they choose to install."
+        },
+        {
+          "questionNumber": 9,
+          "questionText": "Which of the following is a limitation of the SaaS model?",
+          "options": [
+            "a. Cross-platform support is required",
+            "b. Lack of multi-tenancy",
+            "c. Data security and privacy concerns",
+            "d. High switching costs for hardware"
+          ],
+          "explanation": "In the SaaS model, users store their data on the provider's servers rather than their own. This creates a reliance on the provider's security measures and raises significant concerns regarding data breaches, unauthorized access, and compliance with privacy regulations."
+        },
+        {
+          "questionNumber": 10,
+          "questionText": "What does SLA stand for in the context of Cloud Computing?",
+          "options": [
+            "a. Service Level Application",
+            "b. Service Level Agreement",
+            "c. Secure Level Access",
+            "d. Standard Level Agreement"
+          ],
+          "explanation": "An SLA is a formal contract between a cloud provider and a customer that defines the expected level of service, such as uptime and performance. It also outlines the penalties or credits the provider must issue if those specific standards are not met."
+        },
+        {
+          "questionNumber": 11,
+          "questionText": "The \"Bluepill\" attack is a specific type of threat targeting which component of the cloud infrastructure?",
+          "options": [
+            "a. Web Browser",
+            "b. Database",
+            "c. Hypervisor",
+            "d. Network Switch"
+          ],
+          "explanation": "The Bluepill attack is a type of rootkit that uses hardware virtualization to take control of the hypervisor. It essentially \"swallows\" the running operating system into a virtual machine without the user's knowledge, making it extremely difficult to detect from within the compromised system."
+        },
+        {
+          "questionNumber": 12,
+          "questionText": "Which term refers to the independent expectancy between two entities for a specific context at a given time?",
+          "options": [
+            "a. Trust",
+            "b. Reputation",
+            "c. Authorization",
+            "d. Authentication"
+          ],
+          "explanation": "In cloud security, Trust is the subjective expectation that one entity will behave in a predictable and reliable manner toward another. It is context-specific and time-bound, meaning a user might trust a provider for data storage today but not necessarily for sensitive financial processing tomorrow."
+        },
+        {
+          "questionNumber": 13,
+          "questionText": "Which of the following is a feature of the GreenCloud simulator?",
+          "options": [
+            "a. It allows monitoring of energy consumption of networks and devices",
+            "b. It is a closed-source paid software",
+            "c. It is developed by Microsoft",
+            "d. It does not support GUI"
+          ],
+          "explanation": "GreenCloud is an open-source simulator specifically designed to measure the energy efficiency of cloud data centers. It provides detailed tracking of power usage by various components, including servers, switches, and communication links, to help researchers optimize green computing strategies."
+        },
+        {
+          "questionNumber": 14,
+          "questionText": "What is the primary difference between Microsoft Azure's PaaS (Platform as a Service) and laaS (Infrastructure as a Service) offerings?",
+          "options": [
+            "a. PaaS is free, laas is paid",
+            "b. PaaS provides a development environment for clients to build apps, while laas offers control over OS and infrastructure",
+            "c. laas is for mobile only, PaaS is for web only",
+            "d. There is no difference"
+          ],
+          "explanation": "In laas, Azure provides the virtual machines and networking, but you are responsible for managing the operating system and software. In PaaS, Azure manages the underlying OS and middleware, allowing you to focus entirely on deploying and managing your applications."
+        },
+        {
+          "questionNumber": 15,
+          "questionText": "Which of the following is a Java-based cloud simulation platform developed at the University of Melbourne?",
+          "options": [
+            "a. GreenCloud",
+            "b. CloudSim",
+            "c. iCanCloud",
+            "d. DC Sim"
+          ],
+          "explanation": "Developed by the CLOUDS Lab at the University of Melbourne, CloudSim is an open-source framework used to model and simulate cloud computing infrastructures. Because it is Java-based, it allows researchers to test resource provisioning and scheduling algorithms without the cost of a physical cloud."
+        }
+      ]
+    }
+  ]
+}
