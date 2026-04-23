@@ -259,30 +259,51 @@
         testQuestions.forEach((q, index) => {
             const userChoice = userAnswers[index];
             
-            // To grade properly, ensure your JSON has a "correctAnswer" key (e.g., "correctAnswer": "a. Internet of Things").
-            // If missing, we will loosely check if the chosen option starts with the same letter as the explanation suggests, 
-            // but explicitly having a correctAnswer key is best for web platforms.
-            const isCorrect = userChoice && q.correctAnswer && userChoice.charAt(0).toLowerCase() === q.correctAnswer.charAt(0).toLowerCase();
+            // 1. Smartly extract the letter (a, b, c, or d) from the user's choice
+            let userLetter = null;
+            if (userChoice) {
+                // This regex looks for a letter a-d at the start, ignoring '(' or '.'
+                const match = userChoice.trim().match(/^\(?([a-d])[\)\.]/i);
+                if (match) userLetter = match[1].toLowerCase();
+            }
+            
+            // 2. Grade the answer safely
+            let isCorrect = false;
+            if (userLetter && q.correctAnswer) {
+                isCorrect = (userLetter === q.correctAnswer.trim().toLowerCase());
+            }
             
             if (isCorrect) score++;
 
+            // 3. Build the UI
             const item = document.createElement('div');
             item.className = `review-item ${isCorrect ? 'correct' : 'wrong'}`;
             
+            // Add a warning if the JSON is missing the correctAnswer key
             let html = `<h3>${index + 1}. ${q.questionText}</h3>`;
+            if (!q.correctAnswer) {
+                html += `<p style="color: #d97706; font-size: 0.85em;">⚠️ This question is missing the 'correctAnswer' key in its JSON file, so it couldn't be graded.</p>`;
+            }
             
             q.options.forEach(opt => {
                 let optClass = "review-option";
-                if (q.correctAnswer && opt.charAt(0).toLowerCase() === q.correctAnswer.charAt(0).toLowerCase()) {
-                    optClass += " bg-correct"; // Highlight correct answer
+                
+                // Smartly extract the letter for the option being rendered
+                let optLetter = null;
+                const optMatch = opt.trim().match(/^\(?([a-d])[\)\.]/i);
+                if (optMatch) optLetter = optMatch[1].toLowerCase();
+
+                // Highlight correct and wrong answers accurately
+                if (q.correctAnswer && optLetter === q.correctAnswer.trim().toLowerCase()) {
+                    optClass += " bg-correct"; 
                 } else if (userChoice === opt && !isCorrect) {
-                    optClass += " bg-wrong"; // Highlight wrong choice
+                    optClass += " bg-wrong"; 
                 }
                 
                 html += `<div class="${optClass}">${opt} ${userChoice === opt ? '(Your Answer)' : ''}</div>`;
             });
 
-            html += `<div class="explanation"><strong>Explanation:</strong> ${q.explanation}</div>`;
+            html += `<div class="explanation"><strong>Explanation:</strong> ${q.explanation || "No explanation provided."}</div>`;
             item.innerHTML = html;
             container.appendChild(item);
         });

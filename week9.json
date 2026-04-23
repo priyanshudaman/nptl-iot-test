@@ -1,5 +1,5 @@
 {
-  "document": "Introduction To Internet Of Things JAN 2026",
+  "document": "Introduction to Internet of Things Assignment-Week 9 Solutions",
   "assignments": [
     {
       "title": "Week 9 Assignment",
@@ -13,7 +13,8 @@
             "c. Swift",
             "d. All of these"
           ],
-          "explanation": "DevStack is a series of extensible scripts used to quickly bring up a complete OpenStack environment from source code. It is primarily used by developers for testing and development purposes rather than for production-level deployments."
+          "correctAnswer": "a",
+          "explanation": "devstack can be used to install OpenStack. (Please refer Lecture 41 @8:01)"
         },
         {
           "questionNumber": 2,
@@ -22,7 +23,8 @@
             "a. True",
             "b. False"
           ],
-          "explanation": "OpenStack is a well-known open-source cloud computing platform primarily deployed as Infrastructure as a Service (laaS). It is managed by the OpenStack Foundation and allows anyone to access, modify, and distribute its source code, which has led to a large global community of developers and corporate contributors."
+          "correctAnswer": "a",
+          "explanation": "OpenStack is an open-source software. (Please refer Lecture 41@2:14)"
         },
         {
           "questionNumber": 3,
@@ -33,7 +35,8 @@
             "c. Memory",
             "d. Router"
           ],
-          "explanation": "In OpenStack, the Neutron (Networking) service uses a virtual Router to provide connectivity between private networks and external public networks. The router performs Network Address Translation (NAT), allowing instances with private IP addresses to communicate with the internet."
+          "correctAnswer": "d",
+          "explanation": "A router is initialized to connect an OpenStack instance to the public network. (Please refer Lecture 41@17:37 onwards)"
         },
         {
           "questionNumber": 4,
@@ -44,7 +47,8 @@
             "c. Statements I, II, and III",
             "d. None of these"
           ],
-          "explanation": "All three factors represent significant challenges or limitations in the lifecycle of a Wireless Sensor Network (WSN)."
+          "correctAnswer": "c",
+          "explanation": "The limitations of WSNs include procurement, deployment and maintenance. (Please refer Lecture 42@10:52)"
         },
         {
           "questionNumber": 5,
@@ -55,7 +59,8 @@
             "c. Sensor-Cloud Service Provider (SCSP)",
             "d. All of the above"
           ],
-          "explanation": "The sensor-cloud ecosystem relies on Sensor-owners who provide the physical hardware, the SCSP who manages the cloud platform and virtualizes the sensors, and End-users who consume the data as a service. These three actors work together to turn raw sensor data into actionable information for various applications."
+          "correctAnswer": "d",
+          "explanation": "The actors in sensor-cloud include end users, sensor-owner and SCSP. (Please refer Lecture 42@14:18-14:24)"
         },
         {
           "questionNumber": 6,
@@ -66,7 +71,8 @@
             "c. Neither a nor b",
             "d. Both a and b"
           ],
-          "explanation": "The Sensor-Cloud Service Provider (SCSP) acts as the central administrator that manages the virtualization of physical sensors and handles resource allocation. It is responsible for bridging the gap between hardware owners and end-users, ensuring that data is processed and delivered efficiently."
+          "correctAnswer": "b",
+          "explanation": "The Sensor-Cloud Service Provider plays the managerial role in sensor-cloud architecture. (Please refer Lecture 42@14:29)"
         },
         {
           "questionNumber": 7,
@@ -77,7 +83,8 @@
             "c. Neither a nor b",
             "d. Both a and b"
           ],
-          "explanation": "The Internal Cache serves as the primary interface for end-user requests, providing low-latency access to frequently used data. It also acts as a controller that determines if a request can be satisfied locally or if it needs to pull/update data from the External Cache to ensure data freshness."
+          "correctAnswer": "d",
+          "explanation": "Internal Cache handles requests from end-users and decides whether data should be provided directly or re-cached from external cache. (Please refer Lecture 43@21:06 and 22:13)"
         },
         {
           "questionNumber": 8,
@@ -86,7 +93,8 @@
             "a. True",
             "b. False"
           ],
-          "explanation": "Every time a sensor node activates its hardware to take a reading or transmit data, it consumes finite battery power. In Wireless Sensor Networks, \"unnecessary sensing\" (sampling data that isn't needed or is redundant) leads to energy waste, which directly shortens the operational lifetime of the entire network."
+          "correctAnswer": "a",
+          "explanation": "Unnecessary sensing causes energy consumption. (Please refer Lecture 43@20:54)"
         },
         {
           "questionNumber": 9,
@@ -95,7 +103,8 @@
             "a. True",
             "b. False"
           ],
-          "explanation": "Dynamic caching allows the system to adjust which data is stored based on real-time demand and the frequency of user requests. By automatically updating and prioritizing active data, it reduces the need to repeatedly query physical sensors, thereby saving energy and significantly decreasing response latency."
+          "correctAnswer": "a",
+          "explanation": "Caching improves data movement handling and user request servicing in sensor-cloud. (Please refer Lecture 43 on Dynamic and Adaptive Data Caching mechanism)"
         },
         {
           "questionNumber": 10,
@@ -106,18 +115,20 @@
             "c. Both a and b",
             "d. Neither a nor b"
           ],
-          "explanation": "The term Fog Computing was originally coined by Cisco (specifically researchers like Flavio Bonomi) to describe a decentralized computing infrastructure. It extends cloud services to the edge of the network, placing data, compute, and storage closer to the devices that generate it to reduce latency."
+          "correctAnswer": "b",
+          "explanation": "CISCO coined the term Fog computing. (Please refer Lecture 44@4:18)"
         },
         {
           "questionNumber": 11,
-          "questionText": "Fill in the blanks. Fog computing is an intermediate layer between ...... and ...",
+          "questionText": "Fill in the blanks. Fog computing is an intermediate layer between _______ and _______.",
           "options": [
             "a. Dew and devices",
             "b. Cloud and devices",
             "c. Cloud and server",
             "d. None of these"
           ],
-          "explanation": "Fog computing acts as a decentralized bridge that sits between the centralized Cloud and the localized IoT devices (the edge). By processing data at this intermediate layer, it reduces the distance data must travel, significantly lowering latency and bandwidth usage."
+          "correctAnswer": "b",
+          "explanation": "Fog computing is an intermediate layer between cloud and devices. (Please refer Lecture 44@6:40)"
         },
         {
           "questionNumber": 12,
@@ -128,18 +139,20 @@
             "c. Not time-sensitive",
             "d. All of these"
           ],
-          "explanation": "In Fog and Cloud computing, data is categorized by its latency requirements to determine where it should be processed. Time-sensitive data (like emergency alerts) is handled at the edge/fog for immediate action, while less or non-sensitive data (like historical logs) is sent to the cloud for long-term storage and deep analysis."
+          "correctAnswer": "d",
+          "explanation": "Time-sensitive, less time-sensitive and not time-sensitive are types of data with respect to sensitivity. (Please refer Lecture 44@20:05)"
         },
         {
           "questionNumber": 13,
-          "questionText": "Fill in the blank. The concept of enables physical hardware to be shared among multiple Entities.",
+          "questionText": "Fill in the blank. The concept of _______ enables physical hardware to be shared among multiple entities.",
           "options": [
             "a. Hardware virtualization",
             "b. Software virtualization",
             "c. Module virtualization",
             "d. All of these"
           ],
-          "explanation": "Hardware virtualization uses a hypervisor to create multiple virtual machines (VMs) that run on a single physical server. This allows the underlying CPU, memory, and storage to be partitioned and shared among different entities or users while keeping their environments completely isolated."
+          "correctAnswer": "a",
+          "explanation": "The concept of hardware virtualization enables physical hardware to be shared among multiple entities. (Please refer to Page 262, Chapter 11, Introduction to IoT. S. Misra, A. Mukherjee, and A. Roy, 2020. Cambridge University Press.)"
         },
         {
           "questionNumber": 14,
@@ -150,18 +163,20 @@
             "c. Both a and b",
             "d. Neither a nor b"
           ],
-          "explanation": "Fog computing is designed for high mobility, allowing it to support moving devices like connected vehicles or smartphones as they transition between access points. Its anywhere deployability enables localized processing in diverse environments-from remote oil rigs to busy city streets-where a constant, high-speed connection to a central cloud isn't feasible."
+          "correctAnswer": "c",
+          "explanation": "Fog computing supports anywhere deployability and mobility. (Please refer Lecture 45@21:21)"
         },
         {
           "questionNumber": 15,
           "questionText": "To what are the fog nodes connected?",
           "options": [
-            "a. loT devices",
+            "a. IoT devices",
             "b. Cloud",
             "c. Neither a nor b",
             "d. Both a and b"
           ],
-          "explanation": "Fog nodes act as an intermediate layer, maintaining downstream connections to loT devices to collect and process data locally. Simultaneously, they stay connected upstream to the Cloud to send summarized data for long-term storage or to receive complex instructions and global policy updates."
+          "correctAnswer": "d",
+          "explanation": "Fog nodes are connected to both IoT devices and the cloud. (Please refer Lecture 45@11:05)"
         }
       ]
     }

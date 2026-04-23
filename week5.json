@@ -1,19 +1,20 @@
 {
-  "document": "Introduction To Internet Of Things JAN 2026",
+  "document": "Introduction to Internet of Things Assignment-Week 5 Solutions",
   "assignments": [
     {
       "title": "Week 5 Assignment",
       "questions": [
         {
           "questionNumber": 1,
-          "questionText": "What does the term \"Interoperability\" refer to in the context of loT?",
+          "questionText": "What does the term \"Interoperability\" refer to in the context of IoT?",
           "options": [
             "a. The ability of a system to operate without power",
             "b. The ability of different systems/products to work together without restrictions",
             "c. The ability to increase the speed of the internet",
             "d. None of these"
           ],
-          "explanation": "In IoT, Interoperability means that devices from different manufacturers (like a Philips bulb and a Samsung hub) can \"talk\" to each other and exchange data using common protocols."
+          "correctAnswer": "b",
+          "explanation": "Interoperability is a characteristic of a product or system whose interfaces are completely understood to work with other products or systems. (See lecture 21@ 05:40)"
         },
         {
           "questionNumber": 2,
@@ -24,7 +25,8 @@
             "c. The context of A",
             "d. The definition of the object"
           ],
-          "explanation": "In the COSINE (COllaborative Systems for INteroperability in industrial Enterprises) framework, an object is defined by the quadruple (ID,N,C,D). Here, C stands for Context, which defines the environment or circumstances in which the object A (the identifier/name) exists."
+          "correctAnswer": "c",
+          "explanation": "In the Cosine quadruple (A, B, C, D), C represents the context of A. (See lecture 21 @ 21:16)"
         },
         {
           "questionNumber": 3,
@@ -35,18 +37,20 @@
             "c. Devices located in different countries",
             "d. Devices having different owners"
           ],
-          "explanation": "Syntactic Interoperability focuses on the \"grammar\" of data exchange. It ensures that when two systems communicate, they use the same syntax (like JSON, XML, or specific bit structures) so that the receiving system can correctly parse and process the incoming data packets."
+          "correctAnswer": "b",
+          "explanation": "Syntactic interoperability concerns the message formats and data structures (e.g., XML syntax) used for device interaction. (See lecture 21 @ 17:13)"
         },
         {
           "questionNumber": 4,
-          "questionText": "Which of the following is a primary reason for the popularity of Arduino in loT implementations?",
+          "questionText": "Which of the following is a primary reason for the popularity of Arduino in IoT implementations?",
           "options": [
             "a) It is highly expensive and exclusive",
             "b) It is low resource-consuming and cheap",
             "c) It requires high-power external cooling",
             "d) It only supports digital signals"
           ],
-          "explanation": "Arduino is popular because it is cost-effective, open-source, and runs on very little power. Its simple hardware and software (IDE) make it easy for beginners and professionals to prototype loT devices without needing expensive or complex infrastructure."
+          "correctAnswer": "b",
+          "explanation": "Arduino devices are popular because they are cheap, low resource-consuming, and open-source. (See lecture: 22 @01:10)"
         },
         {
           "questionNumber": 5,
@@ -57,7 +61,8 @@
             "c) 16 MHz",
             "d) 50 MHz"
           ],
-          "explanation": "The Arduino Uno uses the ATmega328P microcontroller, which is equipped with a ceramic resonator or crystal oscillator that runs at a clock speed of 16 MHz. This allows it to execute approximately 16 million instructions per second."
+          "correctAnswer": "c",
+          "explanation": "The Arduino Uno operates at a voltage of 5V with a clock speed of 16 MHz. (See lecture: 22@07:01)"
         },
         {
           "questionNumber": 6,
@@ -68,7 +73,8 @@
             "c) loop()",
             "d) start()"
           ],
-          "explanation": "In an Arduino sketch, the loop() function runs continuously after the setup() function finishes. It allows the board to actively monitor sensors and control outputs in a repeated cycle as long as the board has power."
+          "correctAnswer": "c",
+          "explanation": "The loop() function is used for iteratively looping over instances, while setup() is used for initial configurations. (See lecture: 22@12:48)"
         },
         {
           "questionNumber": 7,
@@ -79,7 +85,8 @@
             "c) 0",
             "d) 10"
           ],
-          "explanation": "Arduino is based on the C/C++ programming language, which uses zero-based indexing. This means the first element of an array is always accessed at index 0."
+          "correctAnswer": "c",
+          "explanation": "Similar to C/C++, the conventional starting index for arrays in Arduino is zero. (See lecture: 23@04:16)"
         },
         {
           "questionNumber": 8,
@@ -90,7 +97,8 @@
             "c) Turns off all LEDs immediately",
             "d) Skips the current execution loop"
           ],
-          "explanation": "The delay() function in Arduino takes a value in milliseconds. Since 1000 ms = 1 second, the command delay (5000) pauses the program execution for exactly 5 seconds before moving to the next line of code."
+          "correctAnswer": "b",
+          "explanation": "The delay function takes input in milliseconds; therefore, 5000 milliseconds equals a 5-second delay. (See lecture: 23@15:30)"
         },
         {
           "questionNumber": 9,
@@ -101,7 +109,8 @@
             "c) sensor.h",
             "d) stdio.h"
           ],
-          "explanation": "The math.h library contains the definitions for common mathematical operations, including trigonometry (sin, cos, tan), logarithms, and square roots. While some Arduino versions include it by default, it is the standard C library for these functions."
+          "correctAnswer": "b",
+          "explanation": "To apply math functions, the math. h header must be initially called. (See lecture: 23@08:18)"
         },
         {
           "questionNumber": 10,
@@ -112,7 +121,8 @@
             "c) Humidity and Temperature",
             "d) Motion and Direction"
           ],
-          "explanation": "The DHT22 (also known as AM2302) is a popular digital sensor that uses a capacitive humidity sensing element and a thermistor to measure the surrounding air. It provides high-precision data for both humidity and temperature."
+          "correctAnswer": "c",
+          "explanation": "DHT stands for Digital Humidity and Temperature sensor. (See lecture: 24 @04:45)"
         },
         {
           "questionNumber": 11,
@@ -121,9 +131,10 @@
             "a) 1V to 2V",
             "b) 3.3V to 5V",
             "c) 12V to 24V",
-            "d) OV to 1V"
+            "d) 0V to 1V"
           ],
-          "explanation": "Most DHT sensors (like the DHT11 and DHT22) are designed to operate within a 3.3V to 5V range. Supplying a higher voltage, such as 12V, can permanently damage the sensor's internal circuitry."
+          "correctAnswer": "b",
+          "explanation": "The supply should range from 3.3V to 5V; exceeding this may damage the sensor. (See lecture: 24 @05:57)"
         },
         {
           "questionNumber": 12,
@@ -134,7 +145,8 @@
             "c) 5 V power pin",
             "d) Analog input AREF"
           ],
-          "explanation": "The Signal/Data pin is used for the single-wire digital communication between the DHT sensor and the Arduino. While GND and 5V provide power, the data pin carries the actual temperature and humidity readings."
+          "correctAnswer": "b",
+          "explanation": "In interfacing a digital temperature/humidity sensor with an Arduino, the signal/data pin is connected to a digital input pin on the Arduino - this pin carries the sensor's output readings to the microcontroller for processing. (See lecture: 24 @03:22)"
         },
         {
           "questionNumber": 13,
@@ -145,7 +157,8 @@
             "c. Stores data",
             "d. Connects to the internet"
           ],
-          "explanation": "An actuator is the component of a machine that is responsible for moving and controlling a mechanism or system. It takes a control signal (like an electrical pulse from an Arduino) and energy (electricity, air, or hydraulic fluid) and turns it into physical movement."
+          "correctAnswer": "b",
+          "explanation": "Actuators are mechanical or electromechanical devices that convert energy or signals into motion. (See lecture 25 @ 02:04)"
         },
         {
           "questionNumber": 14,
@@ -156,7 +169,8 @@
             "c. servo.pinMode()",
             "d. servo.write()"
           ],
-          "explanation": "In the Arduino Servo library, the attach() function is used to link a specific digital pin to a servo motor object. For example, myservo.attach(9) tells the Arduino that the servo signal wire is connected to pin 9."
+          "correctAnswer": "b",
+          "explanation": "The attach() function is used to define the pin number to which the servo motor is connected (e.g., myservo.attach(9)). (See lecture 25 @ 08:16)"
         },
         {
           "questionNumber": 15,
@@ -167,7 +181,8 @@
             "c. servo.write(angle)",
             "d. servo.turn(angle)"
           ],
-          "explanation": "The write() function is the standard command used in the Arduino Servo library to set the shaft of the servo to a specific position. For a standard servo, this is typically an angle between 0 and 180 degrees."
+          "correctAnswer": "c",
+          "explanation": "The write() function is used to control the position of the servo motor. It takes degree values (typically between 0 and 180) as an argument and rotates the motor to that specific angle. For example, servo.write(90) moves the servo to the 90-degree position. (See lecture 25 @9:57)"
         }
       ]
     }

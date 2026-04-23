@@ -1,5 +1,5 @@
 {
-  "document": "Introduction To Internet Of Things JAN 2026",
+  "document": "Introduction to Internet of Things Assignment-Week 12 Solutions",
   "assignments": [
     {
       "title": "Week 12 Assignment",
@@ -13,7 +13,8 @@
             "c. Repetitive and Qualitative",
             "d. All of these"
           ],
-          "explanation": "Quantitative analysis focuses on numerical data and statistical patterns to answer \"how many\" or \"how much.\" Qualitative analysis deals with non numerical information, such as text or video, to understand underlying meanings, concepts, or experiences."
+          "correctAnswer": "a",
+          "explanation": "Qualitative and quantitative are the two types of data analysis. (Please refer Lecture 56@2:33)"
         },
         {
           "questionNumber": 2,
@@ -24,18 +25,20 @@
             "c. Collect things",
             "d. All of these"
           ],
-          "explanation": "Qualitative analysis follows an iterative process often described as \"Noticing, Collecting, and Thinking.\" Researchers notice interesting phenomena, collect data (like interviews or observations) to document them, and think about patterns to form meaningful insights."
+          "correctAnswer": "d",
+          "explanation": "The principles include noticing, thinking, and collecting. (Please refer Lecture 56@4:12)"
         },
         {
           "questionNumber": 3,
-          "questionText": "To perform an ANOVA, we must have a ….. response variable and at least one ….. Factor.",
+          "questionText": "To perform an ANOVA, we must have a response variable and at least one factor.",
           "options": [
             "a. Discrete, categorical",
             "b. Continuous, quantitative",
             "c. Discrete, quantitative",
             "d. Continuous, categorical"
           ],
-          "explanation": "ANOVA (Analysis of Variance) requires a continuous dependent variable (like height or weight) to calculate means. The independent variables must be categorical factors (like gender or treatment groups) to divide the data into distinct sets for comparison."
+          "correctAnswer": "d",
+          "explanation": "ANOVA requires a continuous response and at least one categorical factor. (Please refer Lecture 56@9:24)"
         },
         {
           "questionNumber": 4,
@@ -46,18 +49,20 @@
             "c. Water level monitoring",
             "d. All of these"
           ],
-          "explanation": "IoT transforms agriculture by using sensors for real-time water level monitoring and controlling automated irrigation to conserve resources. It also enables automated weeding through computer vision and robotics, significantly reducing the need for manual labor and chemical herbicides."
+          "correctAnswer": "d",
+          "explanation": "All listed options are agriculture IoT applications. (Please refer Lecture 57@2:05)"
         },
         {
           "questionNumber": 5,
-          "questionText": "The two most directly relevant sensors used in agriculture (as discussed) are …….",
+          "questionText": "The two most directly relevant sensors used in agriculture (as discussed) are",
           "options": [
             "a. Soil moisture and proximity sensor",
             "b. Soil moisture and water level sensor",
             "c. ECG sensor and water level sensor",
             "d. All of these"
           ],
-          "explanation": "Soil moisture sensors are vital for measuring the water content in the ground to determine when to irrigate, while water level sensors monitor reservoirs or tanks. Together, they allow for precise water management, ensuring crops receive the exact amount of hydration needed without wasting resources."
+          "correctAnswer": "b",
+          "explanation": "Soil moisture and water level sensors are commonly used in agriculture monitoring. (Please refer Lecture 57@13:11)"
         },
         {
           "questionNumber": 6,
@@ -68,7 +73,8 @@
             "c. Internet Phone System",
             "d. GPRS"
           ],
-          "explanation": "In agricultural settings, where fields are often located far from standard WiFi or wired networks, GPRS (General Packet Radio Service) is used for its wide cellular coverage. It allows the AgriSens gateway to transmit sensor data over long distances to a remote server for real-time monitoring."
+          "correctAnswer": "d",
+          "explanation": "AgriSens gateway communicates to remote server using GPRS. (Please refer Lecture 57@9:14)"
         },
         {
           "questionNumber": 7,
@@ -79,7 +85,8 @@
             "c. Aggregated layer, sensing layer, processing layer, cloud platform layer",
             "d. Sensing layer, processing layer, aggregated layer, cloud platform layer"
           ],
-          "explanation": "Data starts at the Sensing layer (wearables/sensors), moves to the Aggregated layer (gateways) to be collected, and then to the Processing layer for immediate analysis. Finally, the processed data is sent to the Cloud platform layer for long-term storage and advanced health monitoring."
+          "correctAnswer": "b",
+          "explanation": "Data flows from sensing → aggregation → processing → cloud platform. (Please refer Lecture 58@8:25)"
         },
         {
           "questionNumber": 8,
@@ -90,7 +97,8 @@
             "c. IEEE 802.15.1",
             "d. IEEE 802.15.2"
           ],
-          "explanation": "AmbuSens systems use IEEE 802.15.1 (Bluetooth) for short-range wireless communication between sensors and devices. This protocol is suitable for low power medical and sensing applications. It enables reliable data transfer in ambulatory and healthcare environments."
+          "correctAnswer": "c",
+          "explanation": "AmbuSens uses Bluetooth, i.e., IEEE 802.15.1. (Please refer Lecture 58@22:09)"
         },
         {
           "questionNumber": 9,
@@ -99,7 +107,8 @@
             "a. True",
             "b. False"
           ],
-          "explanation": "Remote healthcare uses wearable sensors and wireless networks to monitor patients from their own homes in real-time. This shifts the medical model from hospital-centric to patient-centric, reducing the need for physical travel while maintaining constant medical supervision."
+          "correctAnswer": "a",
+          "explanation": "Remote IoT healthcare aims to bring healthcare to the patient. (Please refer Lecture 58@11:40)"
         },
         {
           "questionNumber": 10,
@@ -110,7 +119,8 @@
             "c. Accelerometer and GPS",
             "d. All of these"
           ],
-          "explanation": "The accelerometer measures the rate of change in velocity to detect specific movements like walking or running, while the GPS tracks the user's geographical location and distance traveled. Together, they provide a complete picture of a person's physical activity and movement patterns."
+          "correctAnswer": "c",
+          "explanation": "Accelerometer and GPS are used for activity monitoring in handheld devices. (Please refer Lecture 59@15:29)"
         },
         {
           "questionNumber": 11,
@@ -121,7 +131,8 @@
             "c. No need of network",
             "d. All of these"
           ],
-          "explanation": "In-place analysis occurs directly on the device (like a smartwatch), eliminating the need for a network to send raw data to a server. However, performing complex computations locally is power intensive, as the device's processor must work harder, which can drain the battery quickly."
+          "correctAnswer": "d",
+          "explanation": "In-place analysis is on-device, power intensive, and can work without network. (Please refer Lecture 59@20:24)"
         },
         {
           "questionNumber": 12,
@@ -130,7 +141,8 @@
             "a. True",
             "b. False"
           ],
-          "explanation": "Deep learning is widely used for video analysis through architectures like Convolutional Neural Networks (CNNs) for spatial features and Recurrent Neural Networks (RNNs/LSTMs) or Transformers for temporal sequences. These models enable tasks like facial recognition, action detection, and object tracking in real-time video feeds."
+          "correctAnswer": "b",
+          "explanation": "Deep learning can be applied to sensor data, images, and videos. (Please refer Lecture 59@19:34)"
         },
         {
           "questionNumber": 13,
@@ -141,18 +153,20 @@
             "c. Accelerometer, Compass, and Gyroscope",
             "d. Pressure sensor and NPK sensor"
           ],
-          "explanation": "Most high-end smartphones include this \"motion-sensing\" trio: the accelerometer detects linear movement, the gyroscope measures orientation and rotation, and the compass (magnetometer) identifies the phone's heading relative to Earth's magnetic field. Sensors like ECG, EEG, and NPK (soil nutrients) are typically external or medical-grade and are not standard internal phone components."
+          "correctAnswer": "c",
+          "explanation": "High-end smartphones commonly have accelerometer, compass, and gyroscope. (Please refer Lecture 60@2:28)"
         },
         {
           "questionNumber": 14,
-          "questionText": "Processing the handheld activity device data using artificial intelligence can be used for…",
+          "questionText": "Fill in the blank. Processing the handheld activity device data using artificial intelligence can be used for",
           "options": [
             "a. Fall detection",
             "b. Heart rate detection",
             "c. Vehicle detection",
             "d. All of these"
           ],
-          "explanation": "While smartphones can track various metrics, AI specifically analyzes data from the accelerometer and gyroscope to identify the sudden, sharp movements characteristic of a fall. Once a fall is detected, the device can automatically trigger emergency alerts, providing a vital safety feature for elderly or high-risk users."
+          "correctAnswer": "a",
+          "explanation": "Al processing of activity data can be used to detect sudden falls. (Please refer Lecture 60@11:56)"
         },
         {
           "questionNumber": 15,
@@ -161,7 +175,8 @@
             "a. True",
             "b. False"
           ],
-          "explanation": "Continuous monitoring allows for the collection of long-term data, which AI can analyze to establish a \"baseline\" of normal behavior. By identifying repetitive patterns, systems can detect subtle changes—such as a decrease in movement or disrupted sleep—which can serve as early warning signs for health or mental well-being issues."
+          "correctAnswer": "a",
+          "explanation": "Continuous monitoring enables observation of behavior and repetitive activity patterns. (Please refer Lecture 59@14:33)"
         }
       ]
     }

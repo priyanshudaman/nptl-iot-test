@@ -1,5 +1,5 @@
 {
-  "document": "Introduction To Internet Of Things JAN 2026",
+  "document": "Introduction to Internet of Things Assignment-Week 7 Solutions",
   "assignments": [
     {
       "title": "Week 7 Assignment",
@@ -13,7 +13,8 @@
             "c. To listen for incoming connections",
             "d. To close the socket connection"
           ],
-          "explanation": "On the server side, the bind() function is used to \"claim\" a specific IP address and port number. This tells the operating system that any incoming network traffic directed to that specific address and port should be handed over to that particular program."
+          "correctAnswer": "b",
+          "explanation": "The bind() function binds the socket to the address (host name) and the port number specified in the arguments. (See lecture 31 @ 08:27)"
         },
         {
           "questionNumber": 2,
@@ -24,7 +25,8 @@
             "c. Matplotlib",
             "d. Pandas"
           ],
-          "explanation": "The Adafruit_DHT library is the standard, widely-used library specifically designed to communicate with the DHT11 and DHT22 sensors on the Raspberry Pi. It handles the complex timing required to read the single-wire digital signal from the sensor and converts it into readable temperature and humidity values."
+          "correctAnswer": "b",
+          "explanation": "The Adafruit library is used to integrate the DHT sensor to Raspberry Pi via Python framework. (See lecture 31 @ 04:30)"
         },
         {
           "questionNumber": 3,
@@ -35,7 +37,8 @@
             "c. Raw Socket",
             "d. None of these"
           ],
-          "explanation": "In many introductory Raspberry Pi and IoT networking projects, UDP (User Datagram Protocol) is used because it is lightweight and does not require the overhead of establishing a formal connection (handshake) before sending data. This makes it ideal for sending simple sensor readings like temperature and humidity where speed is prioritized over perfect reliability."
+          "correctAnswer": "b",
+          "explanation": "The lecture demonstrates creating a UDP based socket which will send data from client to the server. (See lecture 31 @ 05:44)"
         },
         {
           "questionNumber": 4,
@@ -46,7 +49,8 @@
             "c. string.split()",
             "d. string.break()"
           ],
-          "explanation": "In Python, the split() method is used to break a larger string into a list of smaller strings. By default, it splits the string at every whitespace, but you can specify a custom \"delimiter\" (like a comma or a dash) inside the parentheses. For example: \"apple, banana, cherry\".split(\",\") would result in the list ['apple', 'banana', 'cherry']."
+          "correctAnswer": "c",
+          "explanation": "The split() function can be used to split a string into multiple strings depending on the separator or delimiter. (See lecture 32@ 08:06)"
         },
         {
           "questionNumber": 5,
@@ -57,7 +61,8 @@
             "c. TensorFlow",
             "d. Scikit-learn"
           ],
-          "explanation": "Matplotlib is the most widely used library in Python for creating static, interactive, and animated visualizations. It is specifically designed for data plotting, allowing users to create line charts, bar graphs, histograms, and scatter plots with just a few lines of code."
+          "correctAnswer": "b",
+          "explanation": "Python supports a very powerful library called matplotlib for plotting. (See lecture 32 @ 11:52)"
         },
         {
           "questionNumber": 6,
@@ -68,7 +73,8 @@
             "c. ion()",
             "d. subplot()"
           ],
-          "explanation": "In Matplotlib, the function ion() stands for \"interactive on.\" It enables interactive mode, which allows plots to be updated and displayed immediately as you call plotting commands, rather than waiting for the script to finish or requiring a blocking call like."
+          "correctAnswer": "c",
+          "explanation": "ion is the interactive plot mode, which is generally used for animations. (See lecture 32 @ 23:23)"
         },
         {
           "questionNumber": 7,
@@ -79,7 +85,8 @@
             "c. Eastbound API",
             "d. Westbound API"
           ],
-          "explanation": "In Software-Defined Networking (SDN), the Southbound API acts as the communication bridge between the Control Plane (the \"brains\" or the SDN controller) and the Data Plane (the physical or virtual switches/routers). Its primary job is to allow the controller to push down instructions on how to handle network traffic."
+          "correctAnswer": "b",
+          "explanation": "The interface between the forwarding (data plane) and the control plane is known as the Southbound API. (See lecture 33 @ 14:18)"
         },
         {
           "questionNumber": 8,
@@ -90,7 +97,8 @@
             "c. TCAM",
             "d. Flash"
           ],
-          "explanation": "TCAM (Ternary Content-Addressable Memory) is a specialized type of high-speed memory that allows for \"ternary\" searching. Unlike standard RAM, which finds data using an address, TCAM can search its entire content in a single clock cycle. This makes it ideal for SDN flow tables because it can match incoming packets against complex rules (including wildcards like \"0\", \"1\", or \"Don't Care\") almost instantaneously."
+          "correctAnswer": "c",
+          "explanation": "Flow tables are stored in a specialized memory known as TCAM (Ternary Content Addressable Memory). (See lecture 33@ 21:07)"
         },
         {
           "questionNumber": 9,
@@ -101,7 +109,8 @@
             "c. Hardware switches",
             "d. None of these"
           ],
-          "explanation": "All listed options are fundamental parts of the SDN architecture. The Controller acts as the brain (Control Plane), Applications provide the network logic (Management Plane), and Hardware switches handle the actual data forwarding (Data Plane)."
+          "correctAnswer": "d",
+          "explanation": "Attributes or components of SDN includes hardware switches, controllers, applications, flow rules, application programming interfaces (APIs) (See lecture 33 @ 15:40)"
         },
         {
           "questionNumber": 10,
@@ -109,10 +118,11 @@
           "options": [
             "a. Northbound API",
             "b. Southbound API",
-            "c. East-Westbound AΡΙ",
+            "c. East-Westbound API",
             "d. None of these"
           ],
-          "explanation": "While Northbound and Southbound APIs handle vertical communication between layers, the East-Westbound API manages horizontal communication. This allows multiple controllers to synchronize data, share network state, and maintain consistency across a distributed control plane."
+          "correctAnswer": "c",
+          "explanation": "The East-Westbound API terminology comes into the picture when talking about not a single controller but multiple controllers in the control layer. (See lecture 34 @ 02:27)"
         },
         {
           "questionNumber": 11,
@@ -123,7 +133,8 @@
             "c. 10 to 15 milliseconds",
             "d. 100 milliseconds"
           ],
-          "explanation": "When a new rule is not present in a switch's flow table, the controller must install it. This process introduces a small delay due to communication and processing overhead. Typically, this delay is around 3 to 5 milliseconds."
+          "correctAnswer": "b",
+          "explanation": "Typically there is a delay of 3 to 5 milliseconds involved in the new rule placement. (See lecture 34 @ 03:40)"
         },
         {
           "questionNumber": 12,
@@ -134,7 +145,8 @@
             "c. 500",
             "d. 1000"
           ],
-          "explanation": "A typical single-threaded SDN controller is limited by the processing power of a single CPU core and the overhead of the network stack. In most standard benchmarks, such a controller can handle roughly 200 flow requests per second before latency increases significantly."
+          "correctAnswer": "b",
+          "explanation": "Typically a controller can handle roughly about 200 requests in a second (applicable for single-threaded applications). (See lecture 34 @ 04:13)"
         },
         {
           "questionNumber": 13,
@@ -145,7 +157,8 @@
             "c. A database management system",
             "d. A type of cloud storage"
           ],
-          "explanation": "SDN-WISE (Software-Defined Wireless Sensor Networks) is a stateful architecture that adapts SDN principles for resource-constrained sensor nodes. It allows nodes to make local forwarding decisions based on a flow table, significantly reducing the frequency of communication with the central controller."
+          "correctAnswer": "b",
+          "explanation": "SDN-WISE is a Stateful Software Defined solution for Wireless Sensor Networks where flow tables for rule placement are available at the sensor nodes. (See lecture 35 @ 13:49)"
         },
         {
           "questionNumber": 14,
@@ -156,18 +169,20 @@
             "c. PDR remains exactly the same",
             "d. Soft-WSN does not support packet delivery"
           ],
-          "explanation": "By separating the control and data planes, Soft-WSN allows for more efficient routing and dynamic traffic management. This centralized intelligence reduces congestion and link failures compared to traditional WSNs, leading to a much higher percentage of successfully delivered packets."
+          "correctAnswer": "b",
+          "explanation": "Experimental results show that the network performance, specifically Packet Delivery Ratio, is improved using Soft-WSN over traditional WSN. (See lecture 35 @ 12:00)"
         },
         {
           "questionNumber": 15,
-          "questionText": "In the \"Software Defined loT\" architecture, where are flow classification and enhanced security typically handled?",
+          "questionText": "In the \"Software Defined IoT\" architecture, where are flow classification and enhanced security typically handled?",
           "options": [
             "a. At the physical sensor nodes",
             "b. At the Data Center Networks",
             "c. At the gateways only",
             "d. At the user's mobile device"
           ],
-          "explanation": "In Software Defined IoT, resource-intensive tasks like flow classification and enhanced security are offloaded to the Data Center Networks (or the Cloud/Control layer). This is because individual IoT devices are often too power-constrained to handle complex processing and high-level security protocols locally."
+          "correctAnswer": "b",
+          "explanation": "Flow classification and enhanced security are taken care of at the data center networks in the SDN-IoT architecture. (See lecture 35 @ 06:59)"
         }
       ]
     }

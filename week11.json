@@ -1,5 +1,5 @@
 {
-  "document": "Introduction To Internet Of Things JAN 2026",
+  "document": "Introduction to Internet of Things Assignment-Week 11 Solutions",
   "assignments": [
     {
       "title": "Week 11 Assignment",
@@ -13,7 +13,8 @@
             "c. Electrolyte",
             "d. All of these"
           ],
-          "explanation": "A Smart Grid is often called the Energy Internet because it applies Internet-like principles-bidirectional communication, networking, and distributed control-to the electricity grid. Just as the internet allows for a decentralized flow of information, the Energy Internet allows for a two-way flow of both electricity and data between utilities and consumers."
+          "correctAnswer": "a",
+          "explanation": "Smart grids are also known as Electricity with a brain, Energy internet, and Electronet. (Please refer Lecture 51@8:33)"
         },
         {
           "questionNumber": 2,
@@ -24,40 +25,44 @@
             "c. Both a and b",
             "d. Neither a nor b"
           ],
-          "explanation": "Unlike traditional power grids that only deliver electricity from a central plant to the consumer (unidirectional), a Smart Grid supports bidirectional flow. This means energy can flow from the utility to the home, but also from the consumer back to the grid-for example, when a house with solar panels generates more power than it needs and sells the excess back to the utility company."
+          "correctAnswer": "a",
+          "explanation": "Smart grid follows bidirectional flow of energy. (Please refer Lecture 51@5:41)"
         },
         {
           "questionNumber": 3,
-          "questionText": "Fill in the blank.\nIn......... a home can draw power from distributed resources.",
+          "questionText": "Fill in the blank. In _______ a home can draw power from distributed resources.",
           "options": [
             "a. Peaking",
             "b. Islanding",
             "c. Neither a nor b",
             "d. Both a and b"
           ],
-          "explanation": "Islanding is a condition where a location (like a home or a microgrid) remains powered by distributed energy resources (such as solar panels, wind turbines, or batteries) even when the main utility power grid is disconnected or fails. This allows the home to function as an independent \"island\" of power, ensuring reliability during blackouts."
+          "correctAnswer": "b",
+          "explanation": "In islanding, a home can have power from distributed resources. (Please refer Lecture 51@31:20)"
         },
         {
           "questionNumber": 4,
-          "questionText": "Fill in the blank.\n......... samples voltage and current with a fixed sample rate at the installed location.",
+          "questionText": "Fill in the blank. _______ samples voltage and current with a fixed sample rate at the installed location.",
           "options": [
             "a. PEVS",
             "b. DAUs",
             "c. PMUS",
             "d. None of these"
           ],
-          "explanation": "PMUs (Phasor Measurement Units) are high-speed sensors used in Smart Grids to sample voltage and current waves at a fixed, very high rate (often 30 to 60 times per second). These measurements are time-synchronized via GPS, allowing grid operators to monitor the \"health\" of the entire power system in real-time and prevent wide-scale blackouts."
+          "correctAnswer": "c",
+          "explanation": "PMUs (Phasor Measurement Units) sample voltage and current with a fixed sample rate at the installed location. (Please refer Lecture 52@2:44)"
         },
         {
           "questionNumber": 5,
-          "questionText": "Fill in the blank.\n......... is carried out by compromising the availability of a grid component.",
+          "questionText": "Fill in the blank. _______ is carried out by compromising the availability of a grid component.",
           "options": [
             "a. Gateway",
             "b. Data injection attacks",
             "c. AMH",
             "d. Denial of service"
           ],
-          "explanation": "A Denial of Service (DoS) attack in a Smart Grid context aims to disrupt or delay the communication and availability of critical grid components. By flooding the network with traffic or crashing specific nodes, the attacker prevents legitimate data from reaching its destination, which can lead to the loss of real-time monitoring and potentially cause physical damage to the grid."
+          "correctAnswer": "d",
+          "explanation": "Denial of service is performed by compromising the availability of the grid component. (Please refer Lecture 52@19:52)"
         },
         {
           "questionNumber": 6,
@@ -68,36 +73,40 @@
             "c. Covert attacks",
             "d. All of these"
           ],
-          "explanation": "Dynamic System Attacks target the control loops and state estimators of a system (like a Smart Grid) over time."
+          "correctAnswer": "d",
+          "explanation": "Replay attacks, dynamic data injection attacks, and covert attacks are all types of dynamic system attacks. (Please refer Lecture 52@19:55)"
         },
         {
           "questionNumber": 7,
-          "questionText": "State True or False.\nIndustrial Internet of Things (IIoT) follows the \"rip & replace\" approach.",
+          "questionText": "State True or False. Industrial Internet of Things (IIoT) follows the \"rip & replace\" approach.",
           "options": [
             "a. True",
             "b. False"
           ],
-          "explanation": "The Industrial Internet of Things (IIoT) typically follows an \"integrate and extend\" approach rather than \"rip and replace.\" Since industrial environments involve massive, expensive, and long-lasting machinery (legacy systems), it is not cost-effective to replace them entirely. Instead, IIoT focuses on adding sensors, gateways, and connectivity to existing equipment to collect data and improve efficiency."
+          "correctAnswer": "b",
+          "explanation": "IIoT follows the \"wrap & re-use\" approach. (Please refer Lecture 53@9:53)"
         },
         {
           "questionNumber": 8,
-          "questionText": "State True or False.\nMechanized production is a part of the 4th Industrial Revolution.",
+          "questionText": "State True or False. Mechanized production is a part of the 4th Industrial Revolution.",
           "options": [
             "a. True",
             "b. False"
           ],
-          "explanation": "Mechanized production (powered by water and steam) was the hallmark of the 1st Industrial Revolution. The 4th Industrial Revolution (Industry 4.0) is characterized by Cyber-Physical Systems, the Internet of Things (IoT), and artificial intelligence, focusing on interconnectivity and smart automation."
+          "correctAnswer": "b",
+          "explanation": "Mechanized production is a part of the 1st Industrial Revolution. (Please refer Lecture 53@10:41)"
         },
         {
           "questionNumber": 9,
-          "questionText": "Match the Industrial Revolution with the corresponding milestone:\n1) 1st 2) 2nd 3) 3rd 4) 4th",
+          "questionText": "Match the Industrial Revolution with the corresponding milestone: 1) 1st 2) 2nd 3) 3rd 4) 4th",
           "options": [
             "a. 1-Mechanized production, 2-Mass production, 3-Internet evolution & automation, 4-Industrial Internet of Things",
             "b. 1-Mass production, 2-Mechanized production, 3-IIoT, 4-Internet evolution & automation",
-            "c. 1-Internet evolution & automation, 2-Mass production, 3-Mechanized production, 4-lloT",
-            "d. 1-lloT, 2-Internet evolution & automation, 3-Mass production, 4-Mechanized production"
+            "c. 1-Internet evolution & automation, 2-Mass production, 3-Mechanized production, 4-IIoT",
+            "d. 1-IIoT, 2-Internet evolution & automation, 3-Mass production, 4-Mechanized production"
           ],
-          "explanation": "The industrial timeline began with steam-powered mechanization (1st), followed by electrical mass production (2nd), then computer-driven automation (3rd). We are currently in the 4th revolution, defined by the Industrial Internet of Things (lloT) and smart, interconnected systems."
+          "correctAnswer": "a",
+          "explanation": "The industrial evolution milestones are: 1st-Mechanized production; 2nd-Mass production; 3rd-Internet evolution and automation; 4th-IIoT. (Please refer Lecture 53@10:12)"
         },
         {
           "questionNumber": 10,
@@ -108,27 +117,30 @@
             "c. Monitoring",
             "d. None of these"
           ],
-          "explanation": "Standardization creates a common set of rules and protocols that allow diverse hardware and software systems to communicate and exchange data seamlessly. Without these shared standards, different systems would remain isolated, making cross-platform cooperation and integration impossible."
+          "correctAnswer": "a",
+          "explanation": "Standardization improves interoperability of different systems. (Please refer Lecture 54@16:09)"
         },
         {
           "questionNumber": 11,
-          "questionText": "Fill in the blank.\n......... is a primary challenge in IloT.",
+          "questionText": "Fill in the blank. _______ is a primary challenge in IIoT.",
           "options": [
             "a. Worker health and safety",
             "b. Optimised operations",
             "c. Regulatory compliance",
             "d. Integrating existing infrastructure into new IIoT infrastructure"
           ],
-          "explanation": "Many industrial sites rely on \"legacy systems\" that were never designed for internet connectivity, making it difficult to link old machinery with modern digital networks. This integration requires complex gateways and protocols to ensure that data flows smoothly without disrupting established production lines."
+          "correctAnswer": "d",
+          "explanation": "Integrating existing infrastructure into new IIoT infrastructure is a primary challenge in IIoT. (Please refer Lecture 54@14:02)"
         },
         {
           "questionNumber": 12,
-          "questionText": "State True or False.\nLack of vision and leadership is not a hindrance in the path of success of lloT.",
+          "questionText": "State True or False. Lack of vision and leadership is not a hindrance in the path of success of IIoT.",
           "options": [
             "a. True",
             "b. False"
           ],
-          "explanation": "A lack of vision and leadership is a major hindrance because IIoT requires significant strategic shifts and long-term investment. Without strong leadership to define goals and manage organizational change, technical implementation often stalls or fails to deliver real business value."
+          "correctAnswer": "b",
+          "explanation": "Lack of vision and leadership is one of the hindrances in the path of success of IIoT. (Please refer Lecture 54@18:44)"
         },
         {
           "questionNumber": 13,
@@ -137,7 +149,8 @@
             "a. True",
             "b. False"
           ],
-          "explanation": "While Big Data originally focused on the 3 Vs (Volume, Velocity, Variety), it has evolved to include four more: Veracity, Value, Variability, and Visualization. These seven characteristics collectively define the complexity and potential of processing massive datasets in modern environments."
+          "correctAnswer": "a",
+          "explanation": "Big data is characterized by 7 Vs. (Please refer Lecture 55@10:36)"
         },
         {
           "questionNumber": 14,
@@ -148,7 +161,8 @@
             "c. Generation > Acquisition > Storage > Analysis",
             "d. None of these"
           ],
-          "explanation": "Data is first created by a source (Generation) and then gathered through sensors or logs (Acquisition). Once collected, it is kept in a database or cloud (Storage) so that it can finally be examined to find meaningful patterns (Analysis)."
+          "correctAnswer": "c",
+          "explanation": "The flow of data is Generation, Acquisition, Storage and Analysis. (Please refer Lecture 55@19:29)"
         },
         {
           "questionNumber": 15,
@@ -159,7 +173,8 @@
             "c. All of these",
             "d. Neither a nor b"
           ],
-          "explanation": "Hadoop is an open-source framework designed to store and process massive amounts of data across large clusters of commodity hardware. It uses a distributed processing model, primarily through MapReduce, to handle data tasks in parallel, making it highly scalable and reliable."
+          "correctAnswer": "c",
+          "explanation": "Hadoop is used for distributed processing of large datasets across large clusters of computers. (Please refer Lecture 55@23:18)"
         }
       ]
     }

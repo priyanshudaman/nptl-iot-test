@@ -1,169 +1,184 @@
 {
-  "document": "Introduction To Internet Of Things JAN 2026",
+  "document": "Introduction to Internet of Things Assignment-Week 2 Solutions",
   "assignments": [
     {
       "title": "Week 2 Assignment",
       "questions": [
         {
           "questionNumber": 1,
-          "questionText": "The full form of MQTT is ",
+          "questionText": "The full form of MQTT is",
           "options": [
-            "a. Message Query Telemetry Transport ",
-            "b. Message Queue Telemetry Transport ",
-            "c. Message Queue Telemedicine Transport ",
-            "d. None of these "
+            "a. Message Query Telemetry Transport",
+            "b. Message Queue Telemetry Transport",
+            "c. Message Queue Telemedicine Transport",
+            "d. None of these"
           ],
-          "explanation": "MQTT is a lightweight, publish-subscribe network protocol specifically designed for restricted devices and low-bandwidth, high-latency, or unreliable networks.  It is the most common messaging protocol used in IoT because it allows sensors to communicate with servers using minimal power and data overhead. "
+          "correctAnswer": "b",
+          "explanation": "The full form of MQTT is Message Queue Telemetry Transport. See lecture 6 (Basics of IoT Networking - Part II) @ 01:51"
         },
         {
           "questionNumber": 2,
-          "questionText": "XMPP uses the ",
+          "questionText": "XMPP uses the architecture.",
           "options": [
-            "a. Publish-subscribe ",
-            "b. Client-server ",
-            "c. Both (a) and (b) ",
-            "d. Neither (a) nor (b) "
+            "a. Publish-subscribe",
+            "b. Client-server",
+            "c. Both (a) and (b)",
+            "d. Neither (a) nor (b)"
           ],
-          "explanation": "XMPP (Extensible Messaging and Presence Protocol) primarily follows a client-server architecture.  Clients connect to a central server to send and receive messages.  Although it can support publish-subscribe features, its core design is client-server. "
+          "correctAnswer": "b",
+          "explanation": "XMPP uses the client-server architecture. See lecture 7 (Basics of IoT Networking - Part III) @ 12:03"
         },
         {
           "questionNumber": 3,
-          "questionText": "With respect to AMQP, which of the following message delivery guarantees allow each message to be delivered certainly but also may be delivered multiple times. ",
+          "questionText": "With respect to AMQP, which of the following message delivery guarantees allow each message to be delivered certainly but also may be delivered multiple times.",
           "options": [
-            "a. At-least-once ",
-            "b. At-most-once ",
-            "c. Exactly-once ",
-            "d. Both (a) and (b) "
+            "a. At-least-once",
+            "b. At-most-once",
+            "c. Exactly-once",
+            "d. Both (a) and (b)"
           ],
-          "explanation": "This delivery guarantee ensures that a message is successfully received by the consumer at least one time, eliminating the risk of data loss. [, 235] However, if the sender does not receive a timely acknowledgment due to network issues, it will resend the message, which can result in the receiver processing the same data multiple times.  This approach prioritizes reliability over the avoidance of duplicates. "
+          "correctAnswer": "a",
+          "explanation": "The message delivery guarantees of AMQP are - At-most-once- each message is delivered once or never. At-least-once each message is certain to be delivered, but may do so multiple times. Exactly-once - message will always certainly arrive and do so only once. See lecture 8 (Basics of IoT Networking - Part IV) @ 05:35"
         },
         {
           "questionNumber": 4,
-          "questionText": "In MQTT for IoT, the Publishers are ",
+          "questionText": "In MQTT for IoT, the Publishers are",
           "options": [
-            "a. Lightweight sensors ",
-            "b. Actuators ",
-            "c. Processing units ",
-            "d. None of these "
+            "a. Lightweight sensors",
+            "b. Actuators",
+            "c. Processing units",
+            "d. None of these"
           ],
-          "explanation": "In the MQTT protocol, Publishers are typically resource-constrained devices, such as lightweight sensors, that collect and send data to a central broker.  These sensors do not need to know which devices are receiving the information; they simply \"publish\" data to specific topics.  This design allows low-power devices to communicate efficiently over unstable networks without a direct connection to the end-user or subscriber. "
+          "correctAnswer": "a",
+          "explanation": "In MQTT, the Publishers are lightweight sensors. See lecture 6 (Basics of IoT Networking - Part II) @ 04:49"
         },
         {
           "questionNumber": 5,
-          "questionText": "Which of the following is NOT a method in MQTT? ",
+          "questionText": "Which of the following is NOT a method in MQTT?",
           "options": [
-            "a. Publish ",
-            "b. Connect ",
-            "c. Disconnect ",
-            "d. None of these "
+            "a. Publish",
+            "b. Connect",
+            "c. Disconnect",
+            "d. None of these"
           ],
-          "explanation": "In the MQTT protocol, Connect, Disconnect, and Publish are all fundamental control packets (methods) used to manage the communication cycle.  Connect establishes a link to the broker, Publish is used to send data to a specific topic, and Disconnect gracefully terminates the session.  Since all three are valid MQTT methods, none of the options provided are incorrect. "
+          "correctAnswer": "d",
+          "explanation": "Following are the methods in MQTT - a. Connect b. Disconnect c. Subscribe d. Unsubscribe e. Publish. See lecture 6 (Basics of IoT Networking - Part II) @ 06:18"
         },
         {
           "questionNumber": 6,
           "questionText": "CoAP has modes for messaging.",
           "options": [
-            "a. 2 ",
-            "b. 4 ",
-            "c. 8 ",
-            "d. None of these "
+            "a. 2",
+            "b. 4",
+            "c. 8",
+            "d. None of these"
           ],
-          "explanation": "COAP (Constrained Application Protocol) defines four messaging modes: Confirmable, Non-confirmable, Acknowledgement, and Reset.  These modes help ensure reliable and efficient communication in constrained devices. They control how messages are delivered and acknowledged. "
+          "correctAnswer": "b",
+          "explanation": "CoAP has four modes for messaging. See lecture 7 (Basics of IoT Networking - Part III) @ 04:33"
         },
         {
           "questionNumber": 7,
-          "questionText": "State True or False. CoAP architecture is divided into three sub-layers. The messaging sub-layer is responsible for reliability and duplication of messages, while the request-response sub-layer is responsible for communication. The last layer, which is optional, is responsible for user registration. [, 295, 296]",
+          "questionText": "State True or False CoAP architecture is divided into three sub-layers. The messaging sub-layer is responsible for reliability and duplication of messages, while the request-response sub-layer is responsible for communication. The last layer, which is optional, is responsible for user registration.",
           "options": [
-            "a. True ",
-            "b. False "
+            "a. True",
+            "b. False"
           ],
-          "explanation": "The CoAP (Constrained Application Protocol) architecture is actually divided into two sub-layers, not three: the Messaging layer and the Request/Response layer.  The Messaging layer handles the reliability and retransmission of data, while the Request/Response layer manages the communication between clients and servers;  there is no official third \"user registration\" layer in the standard CoAP stack. "
+          "correctAnswer": "b",
+          "explanation": "CoAP architecture is divided into two sub-layers. The messaging sub-layer is responsible for reliability and duplication of messages, while the request-response sub-layer is responsible for communication. See lecture 7 (Basics of IoT Networking - Part III) @ 05:31"
         },
         {
           "questionNumber": 8,
-          "questionText": "What is the full form of XMPP in loT? ",
+          "questionText": "What is the full form of XMPP in IoT?",
           "options": [
-            "a. Extensible Markup Page Processing ",
-            "b. Extensible Messaging and Presence Protocol ",
-            "c. Both (a) and (b) ",
-            "d. Neither (a) nor (b) "
+            "a. Extensible Markup Page Processing",
+            "b. Extensible Messaging and Presence Protocol",
+            "c. Both (a) and (b)",
+            "d. Neither (a) nor (b)"
           ],
-          "explanation": "XMPP is a communication protocol based on XML that was originally designed for instant messaging and \"presence\" (knowing if a device is online).  In the context of IoT, its extensible nature makes it ideal for real-time data exchange and managing large-scale networks of devices.  It allows for secure, decentralized communication between sensors and servers across different platforms. "
+          "correctAnswer": "b",
+          "explanation": "XMPP stands for Extensible Messaging and Presence Protocol. See lecture 7 (Basics of IoT Networking - Part III) @ 11:58"
         },
         {
           "questionNumber": 9,
-          "questionText": "State whether the following statement if True or False. Statement: XMPP is not an open standard protocol. ",
+          "questionText": "State whether the following statement if True or False. Statement: XMPP is not an open standard protocol.",
           "options": [
-            "(a) False ",
-            "(b) True "
+            "(a) False",
+            "(b) True"
           ],
-          "explanation": "XMPP is a widely recognized open standard protocol, originally developed by the Jabber community and later standardized by the IETF (Internet Engineering Task Force).  Because it is open-source, anyone can implement XMPP-based software without paying licensing fees, which has led to its extensive use in instant messaging and decentralized IoT networks.  This openness ensures compatibility and continuous development by a global community of contributors. "
+          "correctAnswer": "a",
+          "explanation": "XMPP is an open standard protocol. See lecture 7 (Basics of IoT Networking - Part III) @ 11:58"
         },
         {
           "questionNumber": 10,
-          "questionText": "What is the full is/are not frame type of the AMQP protocol? ",
+          "questionText": "What is the full is/are not frame type of the AMQP protocol?",
           "options": [
-            "a. Origin ",
-            "b. Destination ",
-            "c. Advance ",
-            "d. All of these "
+            "a. Origin",
+            "b. Destination",
+            "c. Advance",
+            "d. All of these"
           ],
-          "explanation": "In the AMQP (Advanced Message Queuing Protocol) specification, the actual frame types are categorized as Method, Content Header, and Content Body.  Terms like \"Origin,\" \"Destination,\" and \"Advance\" are not recognized frame types in the AMQP technical architecture.  These frames are used to manage the delivery and structure of data as it moves between the client and the broker. "
+          "correctAnswer": "d",
+          "explanation": "None of these is a valid AMQP frame type. See lecture 8 (Basics of IoT Networking Part IV) 07:07"
         },
         {
           "questionNumber": 11,
-          "questionText": "What is the basic unit of data in the AMQP protocol? ",
+          "questionText": "What is the basic unit of data in the AMQP protocol?",
           "options": [
-            "a. Chunk ",
-            "b. Byte ",
-            "c. Packet ",
-            "d. None of these "
+            "a. Chunk",
+            "b. Byte",
+            "c. Packet",
+            "d. None of these"
           ],
-          "explanation": "The basic unit of data in the AMQP protocol is called a Frame.  These frames are used to encapsulate all information sent between the client and the broker, including control commands and the actual message payload.  Because \"Frame\" is the technical term for the fundamental building block of AMQP communication, none of the other options provided are correct. "
+          "correctAnswer": "d",
+          "explanation": "In AMQP, the basic unit of data is called a frame. See lecture 8 (Basics of IoT Networking - Part IV) @ 0:41"
         },
         {
           "questionNumber": 12,
-          "questionText": "Which of the following is/are exchange types in AMQP? ",
+          "questionText": "Which of the following is/are exchange types in AMQP?",
           "options": [
-            "a. Direct ",
-            "b. Fan-out ",
-            "c. Topic ",
-            "d. All of these "
+            "a. Direct",
+            "b. Fan-out",
+            "c. Topic",
+            "d. All of these"
           ],
-          "explanation": "In AMQP, an exchange is responsible for routing messages to various queues using specific rules.  Direct exchanges route messages based on an exact routing key match, Fan-out exchanges broadcast messages to all available queues, and Topic exchanges use wildcard matching for more flexible routing.  These distinct types allow developers to create complex and efficient messaging patterns within an IoT network. "
+          "correctAnswer": "d",
+          "explanation": "The AMQP exchange types are a) Direct b) Fan-out c) Topic d) Header. See lecture 8 (Basics of IoT Networking - Part IV) @ 08:56"
         },
         {
           "questionNumber": 13,
-          "questionText": "Which of the following is/are not an application of 6LoWPAN? ",
+          "questionText": "Which of the following is/are not an application of 6LoWPAN?",
           "options": [
-            "a. loT ",
-            "b. lloT ",
-            "c. Both (a) and (b) ",
-            "d. Neither (a) nor (b) "
+            "a. IoT",
+            "b. IIoT",
+            "c. Both (a) and (b)",
+            "d. Neither (a) nor (b)"
           ],
-          "explanation": "6LoWPAN (IPv6 over Low-Power Wireless Personal Area Networks) is a fundamental technology designed specifically to enable the smallest, most power-constrained devices to connect to the internet.  It is widely used in both IoT (like smart homes) and IIoT (industrial monitoring and automation) because it allows standard IPv6 packets to travel over low-power wireless networks. "
+          "correctAnswer": "d",
+          "explanation": "Both are areas where 6LoWPAN can be applied. See lecture 10 (Connectivity Technologies - Part-II) @ 04:32"
         },
         {
           "questionNumber": 14,
-          "questionText": "The OSI model has Layers. ",
+          "questionText": "The OSI model has layers.",
           "options": [
-            "a. 6 ",
-            "b. 9 ",
-            "c. 4 ",
-            "d. None of these "
+            "a. 6",
+            "b. 9",
+            "c. 4",
+            "d. None of these"
           ],
-          "explanation": "The OSI (Open Systems Interconnection) model is a standardized framework that consists of 7 layers: Physical, Data Link, Network, Transport, Session, Presentation, and Application.  This model is used to characterize and standardize the communication functions of a telecommunication or computing system without regard to its underlying internal structure and technology. "
+          "correctAnswer": "d",
+          "explanation": "The OSI model is a conceptual framework that divides any networked communication system into seven layers. See Page number 10, Chapter 1, Book Introduction to IoT, Authors - Sudip Misra, Anandarup Mukherjee, and Arijit Roy, Publisher - Cambridge University Press, Edition 1 (2021)"
         },
         {
           "questionNumber": 15,
-          "questionText": "The \"Destination Address\" in the IPv4 packet represents which of the following? ",
+          "questionText": "The \"Destination Address\" in the IPv4 packet represents which of the following?",
           "options": [
-            "a. The destination node address of the packet ",
-            "b. The intermediate hop in the network ",
-            "c. Both (a) and (b) ",
-            "d. None of these "
+            "a. The destination node address of the packet",
+            "b. The intermediate hop in the network",
+            "c. Both (a) and (b)",
+            "d. None of these"
           ],
-          "explanation": "In an IPv4 packet header, the Destination Address field contains the unique IP address of the final recipient node that is intended to receive the data.  While the packet may pass through many intermediate hops (routers) to reach its goal, those intermediate addresses are not stored in this specific field;  they are handled at the Data Link layer using MAC addresses. "
+          "correctAnswer": "a",
+          "explanation": "The \"Destination Address\" in the IPv4 packet represents the address of the destination node in the network. See Page number - 18, Chapter 1, Book - Introduction to IoT, Authors - Sudip Misra, Anandarup Mukherjee, and Arijit Roy, Publisher - Cambridge University Press, Edition - 1 (2021)"
         }
       ]
     }
