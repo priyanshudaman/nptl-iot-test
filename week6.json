@@ -13,7 +13,7 @@
             "c. is (is with a space) ",
             "d. Th "
           ],
-          "explanation": "In Python string slicing, the syntax [start:stop] includes the character at the start index and goes up to, but does not include, the character at the stop index.  \n • $x[0]=^{\\prime}T^{\\prime}$ \n • $x[1]=^{\\prime}h^{\\prime}$ \n • $x[2]=`i^{\\prime}$ \n • $x[3]=^{\\prime}s^{\\prime}$ \n $x[4]=^{\\cdot}$ (space) [, 3548, 3549, 3550]"
+          "explanation": "In Python string slicing, the syntax [start:stop] includes the character at the start index and goes up to, but does not include, the character at the stop index.  \n • $x[0]=^{\\prime}T^{\\prime}$ \n • $x[1]=^{\\prime}h^{\\prime}$ \n • $x[2]=`i^{\\prime}$ \n • $x[3]=^{\\prime}s^{\\prime}$ \n $x[4]=^{\\cdot}$ (space) "
         },
         {
           "questionNumber": 2,

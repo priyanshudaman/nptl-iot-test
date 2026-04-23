@@ -13,7 +13,7 @@
             "c. Swift",
             "d. All of these"
           ],
-          "explanation": "DevStack is a series of extensible scripts used to quickly bring up a complete OpenStack environment from source code[cite: 4093]. It is primarily used by developers for testing and development purposes rather than for production-level deployments[cite: 4094]."
+          "explanation": "DevStack is a series of extensible scripts used to quickly bring up a complete OpenStack environment from source code. It is primarily used by developers for testing and development purposes rather than for production-level deployments."
         },
         {
           "questionNumber": 2,
@@ -22,7 +22,7 @@
             "a. True",
             "b. False"
           ],
-          "explanation": "OpenStack is a well-known open-source cloud computing platform primarily deployed as Infrastructure as a Service (laaS)[cite: 4110]. It is managed by the OpenStack Foundation and allows anyone to access, modify, and distribute its source code, which has led to a large global community of developers and corporate contributors[cite: 4111]."
+          "explanation": "OpenStack is a well-known open-source cloud computing platform primarily deployed as Infrastructure as a Service (laaS). It is managed by the OpenStack Foundation and allows anyone to access, modify, and distribute its source code, which has led to a large global community of developers and corporate contributors."
         },
         {
           "questionNumber": 3,
@@ -33,7 +33,7 @@
             "c. Memory",
             "d. Router"
           ],
-          "explanation": "In OpenStack, the Neutron (Networking) service uses a virtual Router to provide connectivity between private networks and external public networks[cite: 4128]. The router performs Network Address Translation (NAT), allowing instances with private IP addresses to communicate with the internet[cite: 4129]."
+          "explanation": "In OpenStack, the Neutron (Networking) service uses a virtual Router to provide connectivity between private networks and external public networks. The router performs Network Address Translation (NAT), allowing instances with private IP addresses to communicate with the internet."
         },
         {
           "questionNumber": 4,
@@ -44,7 +44,7 @@
             "c. Statements I, II, and III",
             "d. None of these"
           ],
-          "explanation": "All three factors represent significant challenges or limitations in the lifecycle of a Wireless Sensor Network (WSN)[cite: 4157]."
+          "explanation": "All three factors represent significant challenges or limitations in the lifecycle of a Wireless Sensor Network (WSN)."
         },
         {
           "questionNumber": 5,
@@ -55,7 +55,7 @@
             "c. Sensor-Cloud Service Provider (SCSP)",
             "d. All of the above"
           ],
-          "explanation": "The sensor-cloud ecosystem relies on Sensor-owners who provide the physical hardware, the SCSP who manages the cloud platform and virtualizes the sensors, and End-users who consume the data as a service[cite: 4180]. These three actors work together to turn raw sensor data into actionable information for various applications[cite: 4181]."
+          "explanation": "The sensor-cloud ecosystem relies on Sensor-owners who provide the physical hardware, the SCSP who manages the cloud platform and virtualizes the sensors, and End-users who consume the data as a service. These three actors work together to turn raw sensor data into actionable information for various applications."
         },
         {
           "questionNumber": 6,
@@ -66,7 +66,7 @@
             "c. Neither a nor b",
             "d. Both a and b"
           ],
-          "explanation": "The Sensor-Cloud Service Provider (SCSP) acts as the central administrator that manages the virtualization of physical sensors and handles resource allocation[cite: 4201]. It is responsible for bridging the gap between hardware owners and end-users, ensuring that data is processed and delivered efficiently[cite: 4202]."
+          "explanation": "The Sensor-Cloud Service Provider (SCSP) acts as the central administrator that manages the virtualization of physical sensors and handles resource allocation. It is responsible for bridging the gap between hardware owners and end-users, ensuring that data is processed and delivered efficiently."
         },
         {
           "questionNumber": 7,
@@ -77,7 +77,7 @@
             "c. Neither a nor b",
             "d. Both a and b"
           ],
-          "explanation": "The Internal Cache serves as the primary interface for end-user requests, providing low-latency access to frequently used data[cite: 4217]. It also acts as a controller that determines if a request can be satisfied locally or if it needs to pull/update data from the External Cache to ensure data freshness[cite: 4218]."
+          "explanation": "The Internal Cache serves as the primary interface for end-user requests, providing low-latency access to frequently used data. It also acts as a controller that determines if a request can be satisfied locally or if it needs to pull/update data from the External Cache to ensure data freshness."
         },
         {
           "questionNumber": 8,
@@ -86,7 +86,7 @@
             "a. True",
             "b. False"
           ],
-          "explanation": "Every time a sensor node activates its hardware to take a reading or transmit data, it consumes finite battery power. In Wireless Sensor Networks, \"unnecessary sensing\" (sampling data that isn't needed or is redundant) leads to energy waste, which directly shortens the operational lifetime of the entire network[cite: 4231]."
+          "explanation": "Every time a sensor node activates its hardware to take a reading or transmit data, it consumes finite battery power. In Wireless Sensor Networks, \"unnecessary sensing\" (sampling data that isn't needed or is redundant) leads to energy waste, which directly shortens the operational lifetime of the entire network."
         },
         {
           "questionNumber": 9,
@@ -95,7 +95,7 @@
             "a. True",
             "b. False"
           ],
-          "explanation": "Dynamic caching allows the system to adjust which data is stored based on real-time demand and the frequency of user requests[cite: 4239]. By automatically updating and prioritizing active data, it reduces the need to repeatedly query physical sensors, thereby saving energy and significantly decreasing response latency[cite: 4240]."
+          "explanation": "Dynamic caching allows the system to adjust which data is stored based on real-time demand and the frequency of user requests. By automatically updating and prioritizing active data, it reduces the need to repeatedly query physical sensors, thereby saving energy and significantly decreasing response latency."
         },
         {
           "questionNumber": 10,
@@ -106,7 +106,7 @@
             "c. Both a and b",
             "d. Neither a nor b"
           ],
-          "explanation": "The term Fog Computing was originally coined by Cisco (specifically researchers like Flavio Bonomi) to describe a decentralized computing infrastructure[cite: 4253]. It extends cloud services to the edge of the network, placing data, compute, and storage closer to the devices that generate it to reduce latency[cite: 4254]."
+          "explanation": "The term Fog Computing was originally coined by Cisco (specifically researchers like Flavio Bonomi) to describe a decentralized computing infrastructure. It extends cloud services to the edge of the network, placing data, compute, and storage closer to the devices that generate it to reduce latency."
         },
         {
           "questionNumber": 11,
@@ -117,7 +117,7 @@
             "c. Cloud and server",
             "d. None of these"
           ],
-          "explanation": "Fog computing acts as a decentralized bridge that sits between the centralized Cloud and the localized IoT devices (the edge)[cite: 4268]. By processing data at this intermediate layer, it reduces the distance data must travel, significantly lowering latency and bandwidth usage[cite: 4269]."
+          "explanation": "Fog computing acts as a decentralized bridge that sits between the centralized Cloud and the localized IoT devices (the edge). By processing data at this intermediate layer, it reduces the distance data must travel, significantly lowering latency and bandwidth usage."
         },
         {
           "questionNumber": 12,
@@ -128,7 +128,7 @@
             "c. Not time-sensitive",
             "d. All of these"
           ],
-          "explanation": "In Fog and Cloud computing, data is categorized by its latency requirements to determine where it should be processed[cite: 4275]. Time-sensitive data (like emergency alerts) is handled at the edge/fog for immediate action, while less or non-sensitive data (like historical logs) is sent to the cloud for long-term storage and deep analysis[cite: 4276]."
+          "explanation": "In Fog and Cloud computing, data is categorized by its latency requirements to determine where it should be processed. Time-sensitive data (like emergency alerts) is handled at the edge/fog for immediate action, while less or non-sensitive data (like historical logs) is sent to the cloud for long-term storage and deep analysis."
         },
         {
           "questionNumber": 13,
@@ -139,7 +139,7 @@
             "c. Module virtualization",
             "d. All of these"
           ],
-          "explanation": "Hardware virtualization uses a hypervisor to create multiple virtual machines (VMs) that run on a single physical server[cite: 4292]. This allows the underlying CPU, memory, and storage to be partitioned and shared among different entities or users while keeping their environments completely isolated[cite: 4293]."
+          "explanation": "Hardware virtualization uses a hypervisor to create multiple virtual machines (VMs) that run on a single physical server. This allows the underlying CPU, memory, and storage to be partitioned and shared among different entities or users while keeping their environments completely isolated."
         },
         {
           "questionNumber": 14,
@@ -150,7 +150,7 @@
             "c. Both a and b",
             "d. Neither a nor b"
           ],
-          "explanation": "Fog computing is designed for high mobility, allowing it to support moving devices like connected vehicles or smartphones as they transition between access points[cite: 4301]. Its anywhere deployability enables localized processing in diverse environments-from remote oil rigs to busy city streets-where a constant, high-speed connection to a central cloud isn't feasible[cite: 4302]."
+          "explanation": "Fog computing is designed for high mobility, allowing it to support moving devices like connected vehicles or smartphones as they transition between access points. Its anywhere deployability enables localized processing in diverse environments-from remote oil rigs to busy city streets-where a constant, high-speed connection to a central cloud isn't feasible."
         },
         {
           "questionNumber": 15,
@@ -161,7 +161,7 @@
             "c. Neither a nor b",
             "d. Both a and b"
           ],
-          "explanation": "Fog nodes act as an intermediate layer, maintaining downstream connections to loT devices to collect and process data locally[cite: 4310]. Simultaneously, they stay connected upstream to the Cloud to send summarized data for long-term storage or to receive complex instructions and global policy updates[cite: 4311]."
+          "explanation": "Fog nodes act as an intermediate layer, maintaining downstream connections to loT devices to collect and process data locally. Simultaneously, they stay connected upstream to the Cloud to send summarized data for long-term storage or to receive complex instructions and global policy updates."
         }
       ]
     }

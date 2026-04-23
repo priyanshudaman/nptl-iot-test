@@ -61,7 +61,7 @@
         },
         {
           "questionNumber": 6,
-          "questionText": "CoAP has modes for messaging. [, 276]",
+          "questionText": "CoAP has modes for messaging.",
           "options": [
             "a. 2 ",
             "b. 4 ",
@@ -145,7 +145,7 @@
         },
         {
           "questionNumber": 14,
-          "questionText": "The OSI model has Layers. [, 397]",
+          "questionText": "The OSI model has Layers. ",
           "options": [
             "a. 6 ",
             "b. 9 ",
