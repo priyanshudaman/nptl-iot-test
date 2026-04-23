@@ -6,17 +6,17 @@
       "questions": [
         {
           "questionNumber": 1,
-          "questionText": "State whether the following statement is true or false. Statement: Instead of a PIR sensor, a camera can also be used in the agricultural field to detect intruders. [cite: 3556, 3557, 3558]",
+          "questionText": "State whether the following statement is true or false. Statement: Instead of a PIR sensor, a camera can also be used in the agricultural field to detect intruders. ",
           "options": [
             "a. True",
             "b. False"
           ],
           "correctAnswer": "a",
-          "explanation": "Instead of a PIR sensor, a camera can also be used in the agricultural field to detect intruders. [cite: 3561] See lecture 16 @ 13:21 [cite: 3562]"
+          "explanation": "Instead of a PIR sensor, a camera can also be used in the agricultural field to detect intruders.  See lecture 16 @ 13:21 "
         },
         {
           "questionNumber": 2,
-          "questionText": "An ultrasonic sensor senses the _______ at which the object is located. [cite: 3564, 3570]",
+          "questionText": "An ultrasonic sensor senses the _______ at which the object is located. ",
           "options": [
             "a. distance",
             "b. coordinates",
@@ -24,11 +24,11 @@
             "d. None of these"
           ],
           "correctAnswer": "a",
-          "explanation": "An ultrasonic sensor senses the distance at which the object is located. [cite: 3573] See lecture 16 @ 13:21 [cite: 3574]"
+          "explanation": "An ultrasonic sensor senses the distance at which the object is located.  See lecture 16 @ 13:21 "
         },
         {
           "questionNumber": 3,
-          "questionText": "WMSNs can be used for [cite: 3576]",
+          "questionText": "WMSNs can be used for ",
           "options": [
             "a. Security surveillance",
             "b. Wild-habitat monitoring",
@@ -36,21 +36,21 @@
             "d. All of these"
           ],
           "correctAnswer": "d",
-          "explanation": "WMSNs can be used for a. Security surveillance b. Wild-habitat monitoring c. Environmental monitoring. [cite: 3581, 3582, 3583, 3584] See lecture 16 @ 22:17 [cite: 3585]"
+          "explanation": "WMSNs can be used for a. Security surveillance b. Wild-habitat monitoring c. Environmental monitoring. [, 3582, 3583, 3584] See lecture 16 @ 22:17 "
         },
         {
           "questionNumber": 4,
-          "questionText": "State whether the following statement is true or false. Statement: Objective of coverage in WSN is to use minimum number of sensors and maximize network lifetime. [cite: 3587, 3588]",
+          "questionText": "State whether the following statement is true or false. Statement: Objective of coverage in WSN is to use minimum number of sensors and maximize network lifetime. ",
           "options": [
             "a. True",
             "b. False"
           ],
           "correctAnswer": "a",
-          "explanation": "The objective of coverage in WSN is to use minimum number of sensors and maximize the network lifetime. [cite: 3592] See lecture 17 @ 08:47 [cite: 3593]"
+          "explanation": "The objective of coverage in WSN is to use minimum number of sensors and maximize the network lifetime.  See lecture 17 @ 08:47 "
         },
         {
           "questionNumber": 5,
-          "questionText": "What is the full form of AUV in the context of mobile wireless sensor networks? [cite: 3597]",
+          "questionText": "What is the full form of AUV in the context of mobile wireless sensor networks? ",
           "options": [
             "a. Aerial and Underwater Vehicle",
             "b. Ambient and Underprivileged Vehicle",
@@ -58,21 +58,21 @@
             "d. None of these"
           ],
           "correctAnswer": "d",
-          "explanation": "The full form of AUV is Autonomous Underwater Vehicle. [cite: 3603] See lecture 18 @ 07:56 [cite: 3604]"
+          "explanation": "The full form of AUV is Autonomous Underwater Vehicle.  See lecture 18 @ 07:56 "
         },
         {
           "questionNumber": 6,
-          "questionText": "State whether the following statement is true or false. In the localized coverage algorithm, special types of distributed algorithms are used where only one subset of nodes participates in sensing, communication, and computation. [cite: 3606, 3607]",
+          "questionText": "State whether the following statement is true or false. In the localized coverage algorithm, special types of distributed algorithms are used where only one subset of nodes participates in sensing, communication, and computation. ",
           "options": [
             "a. True",
             "b. False"
           ],
           "correctAnswer": "a",
-          "explanation": "In the localized coverage algorithm, special types of distributed algorithms are used where only one subset of nodes participates in sensing, communication, and computation. [cite: 3611] See lecture 17 @ 10:37 [cite: 3612]"
+          "explanation": "In the localized coverage algorithm, special types of distributed algorithms are used where only one subset of nodes participates in sensing, communication, and computation.  See lecture 17 @ 10:37 "
         },
         {
           "questionNumber": 7,
-          "questionText": "Which of the following is/are advantage/advantages of Stationary Wireless Sensor Networks? [cite: 3617]",
+          "questionText": "Which of the following is/are advantage/advantages of Stationary Wireless Sensor Networks? ",
           "options": [
             "a. Easy deployment",
             "b. Easy topology maintenance",
@@ -80,21 +80,21 @@
             "d. None of these"
           ],
           "correctAnswer": "c",
-          "explanation": "The advantages of Stationary Wireless Sensor Networks are a. Easy deployment b. Easy topology maintenance c. Node can be placed in an optimized distance. [cite: 3623, 3624, 3625, 3626] See lecture 18 @ 01:12 [cite: 3627]"
+          "explanation": "The advantages of Stationary Wireless Sensor Networks are a. Easy deployment b. Easy topology maintenance c. Node can be placed in an optimized distance. See lecture 18 @ 01:12 "
         },
         {
           "questionNumber": 8,
-          "questionText": "State true or false. In Human-centric Sensing, humanbeings can act as Sensor Operators? [cite: 3629, 3630]",
+          "questionText": "State true or false. In Human-centric Sensing, humanbeings can act as Sensor Operators? ",
           "options": [
             "a. True",
             "b. False"
           ],
           "correctAnswer": "a",
-          "explanation": "In Human-centric Sensing, human beings can act as Sensor Operators. [cite: 3634] See lecture 18 @ 12:36 [cite: 3635]"
+          "explanation": "In Human-centric Sensing, human beings can act as Sensor Operators.  See lecture 18 @ 12:36 "
         },
         {
           "questionNumber": 9,
-          "questionText": "Which of the following is not a property of MANET-infrastructure less network of mobile devices connected wirelessly? [cite: 3639]",
+          "questionText": "Which of the following is not a property of MANET-infrastructure less network of mobile devices connected wirelessly? ",
           "options": [
             "a. Self-CHOP",
             "b. Self-HOP",
@@ -102,21 +102,21 @@
             "d. None of these"
           ],
           "correctAnswer": "d",
-          "explanation": "MANET-infrastructure less network of mobile devices connected wirelessly which follow self-CHOP properties. Also, HOP is a subset of CHOP properties. Hence, both Self-CHOP and Self-HOP are properties of MANET-infrastructure less network of mobile devices connected wirelessly. [cite: 3645, 3646] See lecture 18 @ 04:28 [cite: 3647]"
+          "explanation": "MANET-infrastructure less network of mobile devices connected wirelessly which follow self-CHOP properties. Also, HOP is a subset of CHOP properties. Hence, both Self-CHOP and Self-HOP are properties of MANET-infrastructure less network of mobile devices connected wirelessly.  See lecture 18 @ 04:28 "
         },
         {
           "questionNumber": 10,
-          "questionText": "State whether the following statement is true or false. Statement: UAV networks provide a solution for deployments where there is a need for frequent change configurations. [cite: 3649, 3650, 3651]",
+          "questionText": "State whether the following statement is true or false. Statement: UAV networks provide a solution for deployments where there is a need for frequent change configurations. ",
           "options": [
             "a. False",
             "b. True"
           ],
           "correctAnswer": "b",
-          "explanation": "UAV networks provide a solution for deployments where there is a need for frequent change configurations. [cite: 3655, 3656] See lecture 19 @ 03:23 [cite: 3657]"
+          "explanation": "UAV networks provide a solution for deployments where there is a need for frequent change configurations.  See lecture 19 @ 03:23 "
         },
         {
           "questionNumber": 11,
-          "questionText": "Which of the following is NOT a feature of mesh topology in UAV system? [cite: 3662]",
+          "questionText": "Which of the following is NOT a feature of mesh topology in UAV system? ",
           "options": [
             "a. Flexible",
             "b. Reliable",
@@ -124,11 +124,11 @@
             "d. Both (a) and (b)"
           ],
           "correctAnswer": "c",
-          "explanation": "Features of mesh topology in UAV system are - Flexible, Reliable. [cite: 3669, 3670, 3671] See lecture 19 @ 12:53 [cite: 3672]"
+          "explanation": "Features of mesh topology in UAV system are - Flexible, Reliable.  See lecture 19 @ 12:53 "
         },
         {
           "questionNumber": 12,
-          "questionText": "Which of the following is not a property of a FANET? [cite: 3674]",
+          "questionText": "Which of the following is not a property of a FANET? ",
           "options": [
             "a. Inter-plane communication",
             "b. Intra-plane communication",
@@ -136,22 +136,22 @@
             "d. None of these"
           ],
           "correctAnswer": "d",
-          "explanation": "Inter-plane and Intra-plane communication are properties of FANET. [cite: 3680] See lecture 19 @ 16:51 [cite: 3681]"
+          "explanation": "Inter-plane and Intra-plane communication are properties of FANET.  See lecture 19 @ 16:51 "
         },
         {
           "questionNumber": 13,
-          "questionText": "State true or false. M2M networks are characterized by a few number of sensor nodes deployed over a large area. [cite: 3685, 3686, 3687]",
+          "questionText": "State true or false. M2M networks are characterized by a few number of sensor nodes deployed over a large area. ",
           "options": [
             "a. False",
             "b. True",
             "c. Can not be determined"
           ],
           "correctAnswer": "a",
-          "explanation": "M2M networks are characterized by a large number of sensor nodes. [cite: 3692] See lecture 20 @ 10:17 [cite: 3693]"
+          "explanation": "M2M networks are characterized by a large number of sensor nodes.  See lecture 20 @ 10:17 "
         },
         {
           "questionNumber": 14,
-          "questionText": "What is the full form of M2SP in the context of Machine-to-Machine Communication? [cite: 3695]",
+          "questionText": "What is the full form of M2SP in the context of Machine-to-Machine Communication? ",
           "options": [
             "a. M2M Stateless Platform",
             "b. M2M Session Packet",
@@ -159,11 +159,11 @@
             "d. None of these"
           ],
           "correctAnswer": "d",
-          "explanation": "M2SP stands for M2M Service Platform. [cite: 3701] See lecture 20 @ 16:31 [cite: 3702]"
+          "explanation": "M2SP stands for M2M Service Platform.  See lecture 20 @ 16:31 "
         },
         {
           "questionNumber": 15,
-          "questionText": "The _______ provides integrated services based on device collected data-sets. [cite: 3706, 3707]",
+          "questionText": "The _______ provides integrated services based on device collected data-sets. ",
           "options": [
             "a. M2M Application Platform",
             "b. M2M Service Platform",
@@ -171,7 +171,7 @@
             "d. None of these"
           ],
           "correctAnswer": "a",
-          "explanation": "The M2M Application Platform provides integrated services based on device collected data-sets. [cite: 3713] See lecture 20 @ 18:00 [cite: 3714]"
+          "explanation": "The M2M Application Platform provides integrated services based on device collected data-sets.  See lecture 20 @ 18:00 "
         }
       ]
     }

@@ -6,183 +6,183 @@
       "questions": [
         {
           "questionNumber": 1,
-          "questionText": "Which architecture proposes the use of an agent placed at access points to communicate with the controller in Software Defined Mobile Networks? [cite: 1214]",
+          "questionText": "Which architecture proposes the use of an agent placed at access points to communicate with the controller in Software Defined Mobile Networks? ",
           "options": [
-            "a. uFlow [cite: 1215]",
-            "b. Odin [cite: 1216]",
-            "c. MobileFlow [cite: 1217]",
-            "d. OpenFlow [cite: 1218]"
+            "a. uFlow ",
+            "b. Odin ",
+            "c. MobileFlow ",
+            "d. OpenFlow "
           ],
           "correctAnswer": "b",
-          "explanation": "Odin basically proposes the use of an agent-based solution where an agent is placed at the access points to communicate with the controller. [cite: 1220, 1221]"
+          "explanation": "Odin basically proposes the use of an agent-based solution where an agent is placed at the access points to communicate with the controller. [, 1221]"
         },
         {
           "questionNumber": 2,
-          "questionText": "Which solution was proposed by the SWAN group for mobility-aware flow rule placement in mobile-based IoT systems? [cite: 1223]",
+          "questionText": "Which solution was proposed by the SWAN group for mobility-aware flow rule placement in mobile-based IoT systems? ",
           "options": [
-            "a. Odin [cite: 1224]",
-            "b. uFlow [cite: 1225]",
-            "c. MobileFlow [cite: 1226]",
-            "d. Soft-WSN [cite: 1227]"
+            "a. Odin ",
+            "b. uFlow ",
+            "c. MobileFlow ",
+            "d. Soft-WSN "
           ],
           "correctAnswer": "c",
-          "explanation": "The MobileFlow solution was proposed by the SWAN group and provides a mobility-aware flow rule placement for mobile-based IoT systems. [cite: 1229, 1233]"
+          "explanation": "The MobileFlow solution was proposed by the SWAN group and provides a mobility-aware flow rule placement for mobile-based IoT systems. [, 1233]"
         },
         {
           "questionNumber": 3,
-          "questionText": "In the context of Data Center Networking using SDN, which type of flow requires exact match rules? [cite: 1235]",
+          "questionText": "In the context of Data Center Networking using SDN, which type of flow requires exact match rules? ",
           "options": [
-            "a. Mice flow [cite: 1236]",
-            "b. Elephant flow [cite: 1237]",
-            "c. Cheetah flow [cite: 1238]",
-            "d. Tortoise flow [cite: 1239]"
+            "a. Mice flow ",
+            "b. Elephant flow ",
+            "c. Cheetah flow ",
+            "d. Tortoise flow "
           ],
           "correctAnswer": "b",
-          "explanation": "For Elephant flows (large-scale flows), it is required to have an exact match of the rules, whereas Mice flows can use wildcard rules. [cite: 1241, 1242]"
+          "explanation": "For Elephant flows (large-scale flows), it is required to have an exact match of the rules, whereas Mice flows can use wildcard rules. [, 1242]"
         },
         {
           "questionNumber": 4,
-          "questionText": "Cloud computing is best described as using computing as a: [cite: 1246]",
+          "questionText": "Cloud computing is best described as using computing as a: ",
           "options": [
-            "a. Utility [cite: 1247]",
-            "b. Product [cite: 1248]",
-            "c. Protocol [cite: 1249]",
-            "d. None of these [cite: 1250]"
+            "a. Utility ",
+            "b. Product ",
+            "c. Protocol ",
+            "d. None of these "
           ],
           "correctAnswer": "a",
-          "explanation": "Cloud computing is all about using computing as a utility, similar to how we use electricity or water. [cite: 1252, 1253]"
+          "explanation": "Cloud computing is all about using computing as a utility, similar to how we use electricity or water. [, 1253]"
         },
         {
           "questionNumber": 5,
-          "questionText": "Which of the following is NOT an essential characteristic of Cloud Computing? [cite: 1255]",
+          "questionText": "Which of the following is NOT an essential characteristic of Cloud Computing? ",
           "options": [
-            "a. Rapid Elasticity [cite: 1256]",
-            "b. Measured Service [cite: 1257]",
-            "c. Resource Pooling [cite: 1258]",
-            "d. Fixed Resource Allocation [cite: 1259]"
+            "a. Rapid Elasticity ",
+            "b. Measured Service ",
+            "c. Resource Pooling ",
+            "d. Fixed Resource Allocation "
           ],
           "correctAnswer": "d",
-          "explanation": "The essential characteristics include Rapid Elasticity, Measured Service, Resource Pooling, On-demand self-service, and Broad network access. Fixed resource allocation is contrary to elasticity. [cite: 1261, 1262]"
+          "explanation": "The essential characteristics include Rapid Elasticity, Measured Service, Resource Pooling, On-demand self-service, and Broad network access. Fixed resource allocation is contrary to elasticity. [, 1262]"
         },
         {
           "questionNumber": 6,
-          "questionText": "Which deployment model is restricted to a single organization where cloud functionalities are available only within that organization? [cite: 1266]",
+          "questionText": "Which deployment model is restricted to a single organization where cloud functionalities are available only within that organization? ",
           "options": [
-            "a. Public Cloud [cite: 1267]",
-            "b. Private Cloud [cite: 1268]",
-            "c. Hybrid Cloud [cite: 1269]",
-            "d. Community Cloud [cite: 1270]"
+            "a. Public Cloud ",
+            "b. Private Cloud ",
+            "c. Hybrid Cloud ",
+            "d. Community Cloud "
           ],
           "correctAnswer": "b",
-          "explanation": "Private cloud is typically restricted to a single organization, and the cloud functionalities are made available only within the organization. [cite: 1272, 1273]"
+          "explanation": "Private cloud is typically restricted to a single organization, and the cloud functionalities are made available only within the organization. [, 1273]"
         },
         {
           "questionNumber": 7,
-          "questionText": "In which service model are the Applications and Data managed by the user, while the Runtime, Middleware, and OS are managed by the provider? [cite: 1275]",
+          "questionText": "In which service model are the Applications and Data managed by the user, while the Runtime, Middleware, and OS are managed by the provider? ",
           "options": [
-            "a. SaaS [cite: 1276]",
-            "b. PaaS [cite: 1277]",
-            "c. IaaS [cite: 1278]",
-            "d. None of these [cite: 1279]"
+            "a. SaaS ",
+            "b. PaaS ",
+            "c. IaaS ",
+            "d. None of these "
           ],
           "correctAnswer": "b",
-          "explanation": "In Platform as a Service (PaaS), only Applications and Data are taken care of by the user; the rest are managed by the service provider. [cite: 1283, 1284]"
+          "explanation": "In Platform as a Service (PaaS), only Applications and Data are taken care of by the user; the rest are managed by the service provider. [, 1284]"
         },
         {
           "questionNumber": 8,
-          "questionText": "Which service model allows customers to rent virtualized servers and associated services, focusing on infrastructure like networking and storage? [cite: 1286]",
+          "questionText": "Which service model allows customers to rent virtualized servers and associated services, focusing on infrastructure like networking and storage? ",
           "options": [
-            "a. SaaS [cite: 1287]",
-            "b. PaaS [cite: 1288]",
-            "c. IaaS [cite: 1289]",
-            "d. Xaas [cite: 1290]"
+            "a. SaaS ",
+            "b. PaaS ",
+            "c. IaaS ",
+            "d. Xaas "
           ],
           "correctAnswer": "c",
-          "explanation": "Infrastructure as a Service (IaaS) allows customers to rent virtualized servers, software, data center space, or network equipment. [cite: 1292, 1293]"
+          "explanation": "Infrastructure as a Service (IaaS) allows customers to rent virtualized servers, software, data center space, or network equipment. [, 1293]"
         },
         {
           "questionNumber": 9,
-          "questionText": "Which of the following is a limitation of the SaaS model? [cite: 1297]",
+          "questionText": "Which of the following is a limitation of the SaaS model? ",
           "options": [
-            "a. Cross-platform support is required [cite: 1298]",
-            "b. Lack of multi-tenancy [cite: 1299]",
-            "c. Data security and privacy concerns [cite: 1300]",
-            "d. High switching costs for hardware [cite: 1301]"
+            "a. Cross-platform support is required ",
+            "b. Lack of multi-tenancy ",
+            "c. Data security and privacy concerns ",
+            "d. High switching costs for hardware "
           ],
           "correctAnswer": "c",
-          "explanation": "The limitations of SaaS include limited flexibility and data security and privacy concerns. [cite: 1303]"
+          "explanation": "The limitations of SaaS include limited flexibility and data security and privacy concerns. "
         },
         {
           "questionNumber": 10,
-          "questionText": "What does SLA stand for in the context of Cloud Computing? [cite: 1305]",
+          "questionText": "What does SLA stand for in the context of Cloud Computing? ",
           "options": [
-            "a. Service Level Application [cite: 1306]",
-            "b. Service Level Agreement [cite: 1307]",
-            "c. Secure Level Access [cite: 1308]",
-            "d. Standard Level Agreement [cite: 1309]"
+            "a. Service Level Application ",
+            "b. Service Level Agreement ",
+            "c. Secure Level Access ",
+            "d. Standard Level Agreement "
           ],
           "correctAnswer": "b",
-          "explanation": "SLA stands for Service Level Agreement, which describes the quality, utility, and warranty of services expected by the customer. [cite: 1313, 1314]"
+          "explanation": "SLA stands for Service Level Agreement, which describes the quality, utility, and warranty of services expected by the customer. [, 1314]"
         },
         {
           "questionNumber": 11,
-          "questionText": "The \"Bluepill\" attack is a specific type of threat targeting which component of the cloud infrastructure? [cite: 1316]",
+          "questionText": "The \"Bluepill\" attack is a specific type of threat targeting which component of the cloud infrastructure? ",
           "options": [
-            "a. Web Browser [cite: 1317]",
-            "b. Database [cite: 1318]",
-            "c. Hypervisor [cite: 1319]",
-            "d. Network Switch [cite: 1320]"
+            "a. Web Browser ",
+            "b. Database ",
+            "c. Hypervisor ",
+            "d. Network Switch "
           ],
           "correctAnswer": "c",
-          "explanation": "The Bluepill attack is a very popular form of attack on the hypervisor. [cite: 1322]"
+          "explanation": "The Bluepill attack is a very popular form of attack on the hypervisor. "
         },
         {
           "questionNumber": 12,
-          "questionText": "Which term refers to the independent expectancy between two entities for a specific context at a given time? [cite: 1326]",
+          "questionText": "Which term refers to the independent expectancy between two entities for a specific context at a given time? ",
           "options": [
-            "a. Trust [cite: 1327]",
-            "b. Reputation [cite: 1328]",
-            "c. Authorization [cite: 1329]",
-            "d. Authentication [cite: 1330]"
+            "a. Trust ",
+            "b. Reputation ",
+            "c. Authorization ",
+            "d. Authentication "
           ],
           "correctAnswer": "a",
-          "explanation": "Trust basically takes care of the issue of independent expectancy between two entities for any specific context at a given time. [cite: 1332, 1333]"
+          "explanation": "Trust basically takes care of the issue of independent expectancy between two entities for any specific context at a given time. [, 1333]"
         },
         {
           "questionNumber": 13,
-          "questionText": "Which of the following is a feature of the GreenCloud simulator? [cite: 1335]",
+          "questionText": "Which of the following is a feature of the GreenCloud simulator? ",
           "options": [
-            "a. It allows monitoring of energy consumption of networks and devices [cite: 1337]",
-            "b. It is a closed-source paid software [cite: 1339]",
-            "c. It is developed by Microsoft [cite: 1341]",
-            "d. It does not support GUI [cite: 1343]"
+            "a. It allows monitoring of energy consumption of networks and devices ",
+            "b. It is a closed-source paid software ",
+            "c. It is developed by Microsoft ",
+            "d. It does not support GUI "
           ],
           "correctAnswer": "a",
-          "explanation": "GreenCloud offers facilities for monitoring energy consumption of networks and devices and is energy-aware. [cite: 1345, 1346]"
+          "explanation": "GreenCloud offers facilities for monitoring energy consumption of networks and devices and is energy-aware. [, 1346]"
         },
         {
           "questionNumber": 14,
-          "questionText": "What is the primary difference between Microsoft Azure's PaaS (Platform as a Service) and IaaS (Infrastructure as a Service) offerings? [cite: 1350]",
+          "questionText": "What is the primary difference between Microsoft Azure's PaaS (Platform as a Service) and IaaS (Infrastructure as a Service) offerings? ",
           "options": [
-            "a. PaaS is free, IaaS is paid [cite: 1353]",
-            "b. PaaS provides a development environment for clients to build apps, while IaaS offers control over OS and infrastructure [cite: 1354]",
-            "c. IaaS is for mobile only, PaaS is for web only [cite: 1356]",
-            "d. There is no difference [cite: 1358]"
+            "a. PaaS is free, IaaS is paid ",
+            "b. PaaS provides a development environment for clients to build apps, while IaaS offers control over OS and infrastructure ",
+            "c. IaaS is for mobile only, PaaS is for web only ",
+            "d. There is no difference "
           ],
           "correctAnswer": "b",
-          "explanation": "PaaS focuses on application development platforms, while IaaS offers total control of the operating system and application stack. [cite: 1360, 1361]"
+          "explanation": "PaaS focuses on application development platforms, while IaaS offers total control of the operating system and application stack. [, 1361]"
         },
         {
           "questionNumber": 15,
-          "questionText": "Which of the following is a Java-based cloud simulation platform developed at the University of Melbourne? [cite: 1363]",
+          "questionText": "Which of the following is a Java-based cloud simulation platform developed at the University of Melbourne? ",
           "options": [
-            "a. GreenCloud [cite: 1365]",
-            "b. CloudSim [cite: 1367]",
-            "c. iCanCloud [cite: 1369]",
-            "d. DC Sim [cite: 1371]"
+            "a. GreenCloud ",
+            "b. CloudSim ",
+            "c. iCanCloud ",
+            "d. DC Sim "
           ],
           "correctAnswer": "b",
-          "explanation": "CloudSim is a Java-based simulation platform developed at the University of Melbourne by the team led by Professor Rajkumar Buyya. [cite: 1373, 1374]"
+          "explanation": "CloudSim is a Java-based simulation platform developed at the University of Melbourne by the team led by Professor Rajkumar Buyya. [, 1374]"
         }
       ]
     }
